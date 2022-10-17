@@ -1,0 +1,107 @@
+sortSerial,paraId,paraName,dataType,maxLen,minLen,decLen,ParaValue,valueScope,contents,description,optFlag,globalParaFirstType,globalParasedType
+1,InstituTionRole,机构角色模板,2,10.0,0.0,0.0,JG,TEXT,,机构管理员默认角色,1,0,0
+2,LoginErrorCount,操作员登录失败次数,2,2.0,0.0,0.0,99,TEXT,,定义操作员登录密码连续错误次数，0表示不限制，大于0表示密码连续错误，达到设置次数，则将该操作员状态锁定,1,0,1
+3,BussinessSupport,支持的业务模块,0,1.0,0.0,0.0,S^F^C,UCOMBOXLIST,S-现货^F-期货^C-信用,默认支持全部的业务,1,0,0
+4,ProductInformation,公司信息配置,2,200.0,0.0,0.0,根网^tencent://message/?Menu=yes&amp;uin=800110068&amp;Service=58       &amp;SigT=A7F6FEA02730C98820B4D5C4D39753F6EAA8143A610F29754FE8619B402CF5F7D14E1FB4F0F9D77D1203FE3A6200CCC1FAFF86C8AC1E15672ECEF1F112FD6EA967B962E6F0EAC1E649D7E25DC8200E1752CAE3D8022D48D5D62A5A4A4C8D09EF12D489EBF03985DEC929C312EE346D57F6CF8A08596D2BE9&amp;SigU=30E5D5233A443AB2A24F3912ABDF229710C24B8F0C36AB4AB5D339A5EFB76DE4F6549AC0FCFD58F8189DA121D8E3D6880A90140723653E43DAEFF67F11BB0F34E320DCC08A09D67A,TEXT,,企业名称^企业联系QQ,1,0,1
+5,securitiesName,券商名称,2,5.0,0.0,0.0,HTGJ,COMBOX,0-通用^HTGJ-海通国际,使用系统的券商，用于控制其定制化功能,1,0,0
+6,isStartAutoThreadStandby,是否启用多APPSERVER间自动线程,2,5.0,0.0,0.0,Y,COMBOX,Y-启用^N-不启用,启用前，必须确认AutoThreadsManagement表存在,1,0,0
+7,isSuportCustomerStrategy,是否支持用户自定义策略,2,5.0,0.0,0.0,N,COMBOX,Y-支持^N-不支持,是否支持用户自定义策略,0,0,0
+8,waitTime,空闲锁屏时间,2,5.0,0.0,0.0,150,TEXT,,以分钟为单位，设置为0表示不自动锁屏,1,0,0
+9,lockClient,需要锁屏客户端,0,50.0,0.0,0.0,BT^BM,UCOMBOXLIST,BT-交易系统^BM-管理系统^BO-估值系统,设置需要锁屏模块名，多个模块同时设置用^分隔,1,0,0
+10,IsAccountSynch,允许客户进行实时同步,2,5.0,0.0,0.0,Y,COMBOX,Y-允许^N-不允许,是否允许客户进行实时同步,1,0,0
+11,SerialNumCount,系统序列号每次缓存数量,2,10.0,0.0,0.0,50000,TEXT,NULL,系统序列号每次缓存数量，默认50000,1,0,0
+12,AutoWithdrawTime,自动撤单生效时间,2,30.0,0.0,0.0,0900^1200;1300^2200,TEXT,NULL,自动撤单生效时间，使用^来连接;表示多个时间区间,0,0,0
+13,SendMailOnErr,异常发送邮件通知,2,5.0,0.0,0.0,N,COMBOX,Y-发送^N-不发送,应用程序发生异常是否发送邮件通知,1,0,0
+14,LoginAuthMode,操作员登录认证方式,2,5.0,0.0,0.0,1,COMBOX,1-强制全部图形验证码^2-强制全部手机验证码^3-按照客户个性化认证,系统级操作员登录认证方式，默认强制全部图形验证码,0,0,0
+15,MobileAuthWaitTime,手机验证码有效时间,2,5.0,0.0,0.0,1,TEXT,,手机验证码检查的有效时间，以分钟为单位默认1分钟,0,0,0
+16,BasketNum,允许每个操作员计算拟合组合的个数,2,5.0,0.0,0.0,5,TEXT,,允许每个操作员计算拟合组合的个数,0,0,0
+20,IsAPIService,是否支持接入服务,2,5.0,0.0,0.0,Y,COMBOX,Y-支持^N-不支持,是否支持接入服务,1,0,0
+21,ArchiveInterval,历史表归档时间间隔,2,5.0,0.0,0.0,3,TEXT,,历史表归档时间间隔，基本单位为月，默认为3,1,0,0
+22,IsSupportAutoOPTRiskPrivilege,新增操作员时，自动赋予风控点权限开关，默认为Y-自动,2,1.0,0.0,0.0,N,COMBOX,Y-自动^N-不自动,如果为N，当新增操作员时，则不会自动赋予该操作员风控点权限，如需增加权限需要在风控点权限设置界面进行增加。如果为Y，当新增操作员时，自动赋予该操作员风控点权限。,1,0,0
+23,SoftwareNameDefind,交易终端软件名称定义,2,10.0,0.0,0.0,RN_IMS,TEXT,,现货终端信息采集时，扩展信息中软件名称定义，默认为RN_AMS，表示根网AMS系统。仅支持英文，不支持中文，最大长度10字符。,1,0,0
+24,IsSuportAssetPerfect,是否启用支持资产完善,2,5.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,是否启用资产完善模块,0,0,0
+25,DataDownloadInterval,盘后数据下载导出间隔,3,5.0,0.0,2.0,10.00,TEXT,,"该参数用于配置AMS交易端的盘后数据下载定时导出功能的最小时间间隔。
+单位：s(秒)
+最小值：0.01
+默认值：10
+最大值：100",0,0,0
+26,OperatorPasswordComplexity,操作员密码复杂度,2,10.0,0.0,2.0,1,COMBOX,1-复杂度1^2-复杂度2,"复杂度1：数字、字母大写或小写、符号，要求至少包含两种类型，长度大于等于8位
+复杂度2：数字、大写字母、小写字母、符号，要求至少包含三种类型，长度大于等于8位",1,0,0
+1000,BatchOrderNum,交易支持最大批量订单数,2,5.0,0.0,0.0,2000,TEXT,,控制交易接口批量委托订单数，默认2000,1,1,0
+1001,IsT0RegOrderFlag,产品允许显示日内帐户,0,1.0,0.0,0.0,N,COMBOX,Y-允许^N-不允许,如果为Y，表示系统在非日内交易界面允许显示帐号,0,1,0
+1002,IsOrderControlFlag,委托交易资金持仓检查控制标志,0,5.0,0.0,0.0,Y,COMBOX,Y-检查^N-不检查,委托交易资金持仓检查控制标志，默认Y-检查,1,1,0
+1003,IsSuportAutoAudit,是否支持自动审批,2,5.0,0.0,0.0,N,COMBOX,Y-支持^N-不支持,是否支持自动审批,0,1,0
+1004,IsSuportHighNet,是否支持高净值客户使用,2,5.0,0.0,0.0,N,COMBOX,Y-支持^N-不支持,是否支持高净值客户使用,0,0,0
+1005,IsSuportSplitOrderFlag,超过委托上限时，是否支持分笔委托,2,5.0,0.0,0.0,Y,COMBOX,Y-支持^N-不支持,算法下单与创建指令人工执行不受控制，设置成Y时，直接委托与指令自动下单支持分笔拆单，设置成N时，直接委托与指令自动下单不支持分笔拆单；,1,1,0
+1008,IsMoreBrokersUnifiedTrading,支持多券商统一管理,0,1.0,0.0,0.0,Y,COMBOX,Y-启用^N-不启用,是否支持多券商统一管理,0,1,0
+1009,BankTransferTimeControl,银证转账时间控制,0,11.0,0.0,0.0,0900^2000,UTEXT,例：08:30^16:00用0830^1600表示,银证转账时间配置,0,1,0
+1010,QtyInputSupportAmtMode,数量输入控件支持金额模式,0,1.0,0.0,0.0,Y,COMBOX,Y-启用^N-不启用,如果为Y表示支持输入金额，如果为N表示只支持输入数量,1,1,0
+1011,isSZSellOpenFeeFlag,深圳个股期权卖出开仓不收结算费用,0,1.0,0.0,0.0,Y,COMBOX,Y-收结算费用^N-不收结算费用,如果为Y表示根据设置确定收结算费用，如果为N表示不管是否设置，都不收结算费用,0,1,0
+1012,isSHSellOpenhandlingFeeFlag,上海个股期权卖出开仓不收经手费用,0,1.0,0.0,0.0,Y,COMBOX,Y-收经手费用^N-不收经手费用,如果为Y表示根据设置确定收经手费用，如果为N表示不管是否设置，都不收经手费用,0,1,0
+1013,IsBatchOrderCheckTip,批量委托部分成功订单是否委托,0,1.0,0.0,0.0,Y,COMBOX,Y-继续委托^N-不委托,如果为Y表示批量委托时部分成功订单委托;如果为N时表示全部失败，不委托,1,1,0
+1014,IsSHBondNonTrade,是否支持上海市场债券非交易新业务,0,1.0,0.0,0.0,Y,COMBOX,Y-启用^N-不启用,如果为Y表示支持上海市场债券非交易新业务;如果为N时表示不支持上海市场债券非交易新业务,1,1,0
+1015,IsTdOpenSupportCredit,当日买入证券支持直接还券,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y表示支持，如果为N表示不支持,1,1,0
+1060,IsFIXIN,启用FixIN订单,0,1.0,0.0,0.0,Y,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持FIXIN订单,1,1,0
+1061,isFixFullTimeWork,启用Fix7*24运行标志,0,1.0,0.0,0.0,Y,COMBOX,Y-启用^N-不启用,如果配置Y-启用，即可以接受闭市后业务,1,1,0
+1062,FixStartTime,Fix日间业务起始时间,0,8.0,0.0,0.0,07:00:00,TEXT,,Fix日间业务起始时间，格式HH:MM:SS，要严格按格式设置,1,1,0
+1063,FixMarketCloseTime,Fix日间业务结束时间,0,8.0,0.0,0.0,23:00:00,TEXT,,Fix日间业务结束时间，格式HH:MM:SS，要严格按格式设置,1,1,0
+1064,FixNextDayStartTime,Fix闭市后业务起始时间,0,8.0,0.0,0.0,23:20:00,TEXT,,Fix闭市后业务起始时间，格式HH:MM:SS，要严格按格式设置,1,1,0
+1066,FixDoneForDayTime,非港股Fix日终处理时点,0,8.0,0.0,0.0,14:40:00,TEXT,,对非港股自动进行Fix订单日终处理的时间，格式HH:MM:SS，要严格按格式设置,1,1,0
+1067,FixDoneForDayTimeForHK,港股Fix日终处理时点,0,8.0,0.0,0.0,16:30:00,TEXT,,对港股自动进行Fix订单日终处理的时间，格式HH:MM:SS，要严格按格式设置,1,1,0
+1069,CanceledOrderSupportDFD,对FIX Cancel OK的订单进行日终处理,0,1.0,0.0,0.0,Y,COMBOX,Y-允许^N-不允许,Y表示允许对FIX Cancel OK的订单进行日终处理(DONE FOR DAY),1,1,0
+1072,CustomerAlgoName,算法下单的名称个性化定义,2,50.0,0.0,0.0,内部算法^外部算法^DSA^Worked Order,TEXT,,算法下单的名称个性化定义,0,1,0
+1073,isSupportInterALGO,支持内部ALGO算法下单,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，系统将支持内部ALGO算法下单的处理，子订单也通过PB系统处理,0,1,0
+1074,IntelligentOrderInterval,智能委托时间间隔,2,3.0,0.0,0.0,5,TEXT,,针对智能委托，线程扫描时间间隔设置，单位为秒，最小值为2秒。,1,1,0
+1075,isLimitIntelligentSellOddQty,程序下单时卖委托最小数量与买入下限相同,2,1.0,0.0,0.0,1,COMBOX,"0-不控制^1-控制,不卖零股^2-控制,最后一笔可卖零股",为0时，不进行控制，总可卖零股；为1时，不允许零股拆分卖出，零股累计整手卖出，最后一笔也整手卖出，如剩余零股不卖出；为2时，不允许零股拆分卖出，零股累计整手卖出，但最后一笔会含零股卖出，保证全部卖出,1,1,0
+1076,IntelligentWithdrawInterval,智能撤单时间间隔,2,3.0,0.0,0.0,10,TEXT,,针对智能撤单，线程扫描时间间隔设置，单位为秒，最小值为2秒。,1,1,0
+1077,AutoWithdrawControl,自动撤单对挂单价格等于下次委托价格不撤单,2,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用 ,如果选择Y，自动撤单线程处理增加对挂单价格等于下次委托价格场景做判断；否则，不做检查。,1,1,0
+1078,isSupportALGO,支持外接ALGO算法下单,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，系统将支持外接客户ALGO算法系统的处理;拆成子订单再返回通过PB系统处理,0,1,0
+1080,MonitorAlgoGateWayInterval,监控ALGOGateWay的时间间隔,2,5.0,0.0,0.0,300,TEXT,,推荐该参数应是ALGO GateWay的comm.properties中comm.monitor.interval的1/2倍，单位秒,0,1,0
+1081,AlgoGateWayNotRespondTimeOut,AlgoGateWay未响应的超时时间,2,5.0,0.0,0.0,120,TEXT,,推荐该参数应是ALGO GateWay的comm.properties中comm.monitor.interval的2倍，单位秒,0,1,0
+1082,isWorkOrderFlag,支持Woked Order订单,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持Woked Order订单，Woked Order订单表示父订单到对接系统，子订单不通过PB系统;,0,1,0
+1083,isDSAOrderFlag,支持DSA订单,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持DSA订单，DSA订单表示父订单到对接系统，子订单不通过PB系统;DSA在PB系统中把算法参数传给对接系统,0,1,0
+1086,SBL_Pool_ProductNum,券池默认产品号,0,20.0,0.0,0.0,2,TEXT,,券池默认产品号,1,1,0
+1087,SBL_Pool_ProductAcctNum,券池默认资产单元号,0,20.0,0.0,0.0,2,TEXT,,券池默认资产单元号,1,1,0
+1088,creditWithDrawType,融资融券直接还券撤单方式,0,1.0,0.0,0.0,3,COMBOX,"1-委托选择,默认可撤单^2-委托选择,默认不可撤单^3-委托不可选择",融资融券直接还券撤单方式,1,1,0
+1089,SBL_Pool_ProductName,券池默认产品名称,0,50.0,0.0,0.0,Y, TEXT, ,券池默认产品名称,1,1,0
+1091,SBL_Pool_PortfolioNum,券池默认投资组合号,0,20.0,0.0,0.0,2,TEXT,,券池默认投资组合号,1,1,0
+1092,SBL_restrictedStkPoolNumList,导入可出借券单受限证券池编码列表,0,50.0,0.0,0.0,2, TEXT,,"导入可出借券单受限证券池编码列表（可支持设置多个证券池编号，""^""分割）",1,1,0
+2011,isInstructEndTimeUpdate,是否在指令结束时间点记录市场成交量,2,1.0,0.0,0.0,N,COMBOX,Y-是^N-否,当设置为Y时，在指令设置的结束时间点时记录指令结束的市场成交量、成交金额；为N时，则在指令数量全部成交时记录指令结束的市场成交量、成交金额。,0,2,0
+2015,withdrawNum,监控连续自动撤单次数,2,5.0,0.0,0.0,0,TEXT,,自动执行策略支持自动撤单时，因为价格原因可能发生委托被连续自动撤单的情况，如果超过连续自动撤单次数，则将自动暂停本策略的执行。部分成交的撤单不考虑在内。为0时不进行本监控。,1,2,0
+2019,isOrderPriceModify,指令价格策略或限价修改对委托与策略的处理,0,10.0,0.0,0.0,N,COMBOX,N-不撤单不终止^Y-撤单并终止,指令价格策略或限价修改时，设置成Y时自动对超限价委托进行撤单并终止在执行的策略；为N时需要人工处理,0,2,0
+2054,InstrSupportModifyFlag,支持指令修改,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持指令修改，则指令完成时可以进行修改。,0,2,0
+2055,InsSupportAmt,支持金额指令,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持金额指令。,0,2,0
+2056,InsSupportSwitchOrder,支持换股指令,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持换股指令。,0,2,0
+2057,InsAutoOrder,支持指令自动执行,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,如果为Y，表示系统支持指令自动执行，在指令交易界面会自动下单。,0,2,0
+2058,isSupportSpanDaysInstruction,支持跨天指令,2,1.0,0.0,0.0,N,COMBOX,Y-支持^N-不支持,如果为Y，表示系统支持跨天指令。,0,2,0
+2067,isSupportInsTraderId,支持指令创建时选择交易员,0,1.0,0.0,0.0,N,COMBOX,Y-支持^N-不支持,如果为Y，表示系统创建指令时允许选择交易员。,0,2,0
+2070,IsInstructAutoDistOnLine,指令自动分发是否需要分发员在线,0,1.0,0.0,0.0,N,COMBOX,Y-支持^N-不支持,如果为Y，表示指令自动分发环节，需要指令分发员在线检查。,0,2,0
+3001,checkFeeErrorRange,分仓清算核对费用误差范围,0,5.0,,,0,TEXT, ,分仓清算核对费用误差范围，超过此限额的费用误差，记录清算错误表,0,3,0
+3002,checkReckoningAmtErrorRange,分仓清算核对清算金额误差范围,0,5.0,,,0,TEXT, ,分仓清算核对清算金额误差范围，超过此限额的误差，记录清算错误表，自动调整后记录误差流水,0,3,0
+3003,IsAcctNumMatchAcctid,是否启用一个资金帐户匹配一个资产单元,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,一个资金帐户匹配一个资产单元，不存在或为N时不启用，Y时启用,0,3,0
+3005,F_ApplicationFee,期货清算申报费设置,0,255.0,0.0,0.0,F#IF=1^F#IH=1^F#IC=1,TEXT,,期货清算申报费设置，设置方式:市场#品种1=费用^市场#品种2=费用,1,3,0
+3008,IsPerformTheRigorousProcess,是否启用严谨的清算流程,0,1.0,0.0,0.0,N,COMBOX,Y-启用^N-不启用,"Y为启用严谨的流程，严谨的流程与非严谨流程有如下两个区别:
+1、严谨的流程会在数据归档前备份失败后终止清算流程
+2、严谨的流程不进行强制跨日操作",1,3,0
+3010,CFMMCSupportList,保证金监控中心文件转入支持列表,0,500.0,0.0,0.0,cusfund^delivdetails^holddata,UCOMBOXLIST,cusfund-客户资金文件^delivdetails-交割文件^holddata-持仓文件^otherfund-其他资金项文件^trddata-交易文件^holddetails-持仓明细文件^opttrddata-期权交易文件^optholddata-期权持仓文件^optexerdata-期权行权文件,"导入保证金监控中心文件时，只匹配配置的文件，仅支持配置（不区分大小写）：
+cusfund^delivdetails^holddata^otherfund^trddata^opttrddata^optholddata^optexerdata",0,3,0
+3011,CheckPostAmtRange,持仓成本金额核对误差,0,500.0,0.0,0.0,0,TEXT,,"当误差达到设定值时同步成本金额
+单位:%
+0-直接同步对接系统成本
+100-不同步对接系统成本
+0-100的值x-当误差达到x%时同步对接系统成本，x%=ABS(对接系统成本-AMS成本)/AMS成本 * 100%，如果AMS成本为0直接同步",0,3,0
+3024,SZFICompanyID,深圳固定收益平台交易商代码,0,20.0,0.0,0.0,,TEXT,,深圳固定收益平台交易商代码,0,3,0
+3025,SHEzDACompanyID,上海债券质押式协议回购发起方交易商代码,0,20.0,0.0,0.0,,TEXT,,上海债券质押式协议回购发起方交易商代码,0,3,0
+3026,SuportCombinationCloseExchList,组合策略支持单边平仓的市场列表,0,20.0,0.0,0.0,,TEXT,,组合策略支持单边平仓的市场列表,0,3,0
+3027,ClrCenterInterface,清算中心对接目标编号,0,5.0,0.0,0.0,2900,TEXT,,清算中心对接目标编号,1,3,0
+4001,WhiteStkpoolTradeFlag,白池交易限制范围,0,1.0,0.0,0.0,0,COMBOX,0-交集^1-并集,多个白池中存在相同的证券代码之间的级联关系,1,4,0
+4002,ReckRiskAutoRunTime,日终定时自动计算风控指标时间点,0,20.0,0.0,0.0,,TEXT,,设置日终定时自动计算风控指标的时间点，精确到分，02:30表示上午2点30分;注意：设置时间要早于清算时间,0,4,0
+4003,RiskUserFlag,是否启用风控模块,0,1.0,0.0,0.0,1,COMBOX,0-停用^1-启用,是否启用风控模块,0,4,0
+4005,RiskVersion,当前启用的风控版本,0,1.0,0.0,0.0,2,COMBOX,1-旧版^2-新版,当前启用的风控版本,0,4,0
+5001,AssetAdjustEmail,限期资金股份冻结解冻业务收件地址,0,500.0,0.0,0.0,0,TEXT,,支持设置多个收件地址，用^分隔,0,5,0
+5002,IsLoginGW,外挂点,0,500.0,0.0,0.0,,TEXT,,是否登录外挂系统 3301-登录 其他不登陆 多个用【^】分割,1,1,0
+5003,slave_function_code,非主业务功能码,0,500.0,0.0,0.0,50152017^50152019^50152021^50159001^50150017^50150019,TEXT,内存委托查询^资金查询^持仓查询^资金账户登录功能,非主业务功能码配置,1,1,0
+5005,LoadErrMsgConfig,用于获得不同环境的交易中的错误信息,0,20.0,0.0,0.0,,TEXT,yt-盈通^zb-直报,如果为yt，表示盈通错误码列表。,1,2,0
+5022,productAcctNumGroup,资产单元组,0,500.0,0.0,0.0,,TEXT,,，号分割资产单元组 ^分割同一组下资产单元,1,0,0
+7001,isSendRisk,是否发送PreRiskcheck风控系统,0,255.0,0.0,0.0,N,TEXT,,,1,0,0
+7002,portfolioNumList,需要风控检查的投资组合账户列表,0,500.0,0.0,0.0,Y,TEXT,,,1,0,0

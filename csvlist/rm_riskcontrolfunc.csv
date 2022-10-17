@@ -1,0 +1,22 @@
+riskControlType,sortSerial,riskControlMode,riskControlFunc,funcName,controlObject,MultiObject,MustObject,isorhasObject,exemptControlObject,exemptMultiObject,exemptMustObject,exemptisorhasObject,RiskSumFlag,supportMonitorFlag,supportTradeControlFlag,supportTriggeredFlag,logicalRelationFlag,formulaFlag,moleculeObject,denominatorObject,mutexFlag,memo,inputTime,invokedClass,occurTime,optId,staticControlFlag,version
+RM_AcctFunds,1,1,RM_AccountFunds,单账号资金,,,ProductNum,,,,,,1,1,1,0,,1,,,0,账户资金可用金额控制。,0,,20190731000000,99990,1,2
+RM_ActionQryLimit,1,1,RM_Action_Deemed,撤单次数,,,ProductNum,,,,,,1,1,1,0,,1,,,0,说明,0,,20190522091500,99990,1,2
+RM_ActionQryLimit,2,1,RM_Action_Deemed_rate, 撤单次数/委托次数,,,ProductNum,,,,,,1,1,1,0,,1,,,0,说明,0,,20190522091500,99990,1,2
+RM_Repo_Financing,1,1,RM_BondPledge,债券入库量/该债券全市场流通量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,债券入库量/该债券全市场流通量,0,,20190731000000,99990,1,2
+RM_Business,1,1,RM_Business_Forbid,不允许买卖,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对证券的买入卖出进行限制,0,,20190731000000,99990,1,2
+RM_FTMarginAmt,1,1,RM_FTMarginAmt_FTMarginAmt,期货保证金占用,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对期货保证金占用的控制,0,,20190506000000,99990,1,2
+RM_FTMarginAmt,2,1,RM_FTMarginAmt_TotalAssetAmt,期货保证金占用/总权益,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对期货保证金占用/总权益的占比进行控制,0,,20190506000000,99990,1,2
+RM_AcctFunds,2,1,RM_FundMarket,基金做市账号资金,,,ProductNum,,,,,,1,1,1,0,,1,,,0,账户资金可用金额控制。,0,,20190731000000,99990,1,2
+RM_ActionQryLimit,3,1,RM_Knock_Order_Rate,成交量/委托量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,当日成交量与委托量占比限制,0,,20190522091500,99990,1,2
+RM_StkQty,1,1,RM_PositionQty,持仓数量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,证券持仓数量的控制。,0,,20190731000000,99990,1,2
+RM_StkQty,2,1,RM_PositionQty_StkTotalShares,持仓数量/该证券总股本,,,ProductNum,,,,,,1,1,1,0,,1,,,0,证券持仓数量在该证券总股本的占比的控制。,0,,20190731000000,99990,1,2
+RM_Repo_Financing,2,1,RM_Repo_TotalProprietaryBond,回购未到期金额/债券总托管量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,回购未到期金额/债券总托管量的控制。,0,,20191102100000,99990,1,2
+RM_StkReverse,1,1,RM_SelfKnock_TradeCtrl,防对敲(仅未成交),,,ProductNum,,,,,,1,1,1,0,,1,,,0,指定时间内，对未成交完成的委托进行防对敲检查。,0,,20190731000000,99990,1,2
+RM_TradeQty,1,1,RM_StkOrderQty,交易量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对交易量的控制。,0,,20190731000000,99990,1,2
+RM_TradeQty,3,1,RM_StkOrderQty_AvgQty,交易量/20日平均交易量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对证券交易量与该证券过去20日平均交易量的控制。,0,,20190731000000,99990,1,2
+RM_TradeQty,2,1,RM_StkOrderQty_TotalMktQty,交易量/当日市场成交量,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对证券交易量在当日市场成交量的控制。,0,,20190731000000,99990,1,2
+RM_TradeValue,1,1,RM_StkOrderValue,交易额,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对交易额度进行控制,0,,20190731000000,99990,1,2
+RM_TradeValue,2,1,RM_StkOrderValue_TotalStkMktTurnover,交易额/该证券市场总成交额,,,ProductNum,,,,,,1,1,1,0,,1,,,0,对交易额度与该证券市场总成交额占比进行控制,0,,20190731000000,99990,1,2
+RM_TradingCapitalScale,1,1,RM_TodayTradingCapitalScale,当日交易资金规模,,,ProductNum,,,,,,1,1,1,0,,1,,,0,控制单个资产单元当日交易使用资金不能超过期初资金规模，主要应用在一个资产单元同时进行现货及期货交易场景。,0,,20220421000000,99990,1,2
+RM_TradePrice,1,1,RM_TradePrice_ContrastRate,(执行价格-参考价格)/参考价格,,,ProductNum,,,,,,1,1,1,0,,1,,,0,控制委托价格与选中类型的参考价格的偏离度,0,,20200103000000,99990,1,2
+RM_TradePrice,2,1,RM_TradePrice_NewPrice,（最新价-参考价格）/参考价格,,,ProductNum,,,,,,1,1,1,0,,1,,,0,控制最新价与选中类型的参考价格的偏离度,0,,20190731000000,99990,1,2

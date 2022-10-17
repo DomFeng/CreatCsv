@@ -1,0 +1,2393 @@
+globalConst,interiorId,constDisplayName,memo,sortSerial
+accruedBaseType,1,资产净值,,0
+AccruedFeeType,GLF,管理费,,0
+AccruedFeeType,TGF,托管费,,1
+AccruedFeeType,TZGWF,投顾费,,3
+AccruedFeeType,WBF,外包费,,2
+AccruedFeeType,XSFWF,销售服务费,,4
+AccruedFeeType,YJBC,业绩报酬,,5
+AccruedMode,1,日{{Day}},,0
+AccruedMode,2,月{{Month}},,1
+AccruedMode,3,季{{Quarter}},,2
+AccruedMode,4,半年{{Half Year}},,3
+AccruedMode,5,年{{Year}},,4
+AcctGroupOrderStrategy,0,固定数量,多产品双向策略,0
+AcctGroupOrderStrategy,1,固定金额,多产品双向策略,1
+AcctGroupOrderStrategy,2,单元可用比,多产品买策略,2
+AcctGroupOrderStrategy,3,可用数量比,多产品卖策略,3
+AcctGroupOrderStrategy,4,持仓数量比,多产品卖策略,4
+AcctGroupOrderStrategy,5,产品净资产比,多产品双向策略,5
+AcctGroupStatus,0,正常{{Normal}},,0
+AcctGroupStatus,3,锁定{{Locked}},,3
+AcctIDType,J,交易账户,,1
+AcctIDType,T,托管账户{{Custody Account}},,0
+AcctIDType,X,现货交易账户{{Spot Trading Account}},,2
+acctPermitList,0,禁止存款,account,0
+acctPermitList,1,禁止取款,account,1
+acctPermitList,2,禁止买入,account,2
+acctPermitList,3,禁止卖出,account,3
+acctPermitList,4,禁止转托管,account,4
+acctPermitList,5,禁止撤消指定,account,5
+acctPermitList,6,禁止银证转帐转出,account,6
+acctPermitList,7,禁止银证转帐转入,account,7
+acctPermitList,8,禁止买入(场外交易产品),account,8
+acctPermitList,9,禁止卖出(场外交易产品),account,9
+acctPermitList,A,禁止转托管(场外交易产品),account,10
+acctPermitList,B,禁止开放式基金账户类业务,account,11
+acctPermitList,C,禁止开放式基金交易类业务,account,12
+acctPermitList,D,允许外汇资金充抵保证金,account,13
+action,0,增加,复核操作,0
+action,1,注销,复核操作,1
+action,10,调整资金可用,资金复核操作,10
+action,11,调整资金余额,资金复核操作,11
+action,12,调整资金余额与可用,资金复核操作,12
+action,13,划转资金,资金复核操作,13
+action,14,资金异常冻结,资金复核操作,14
+action,15,资金异常解冻,资金复核操作,15
+action,16,资金期限冻结,资金复核操作,16
+action,17,资金取消期限冻结,资金复核操作,17
+action,2,修改,复核操作,2
+action,20,调整股份可用,股份复核操作,20
+action,21,调整股份余额,股份复核操作,21
+action,22,调整股份余额与可用,股份复核操作,22
+action,23,调整昨持仓,股份复核操作,23
+action,24,调整今持仓,股份复核操作,24
+action,25,调整约券持仓,T0股份复核操作,25
+action,3,注销恢复,复核操作,3
+action,30,划转流通股,股份复核操作,30
+action,31,划转非流通股,股份复核操作,31
+action,32,划转异常冻结,股份复核操作,32
+action,33,股份异常冻结,股份复核操作,33
+action,34,股份异常解冻,股份复核操作,34
+action,35,股份复核操作,股份复核操作,35
+action,36,股份取消期限冻结,股份复核操作,36
+action,37,调整股份权益,股份复核操作,37
+action,38,重置成本价,股份复核操作,38
+action,50,创建,创建指令,50
+action,51,复核,复核指令,51
+action,52,分发,分发指令,52
+action,53,终止,终止指令,53
+action,54,修改,修改指令,54
+actionType,auto,系统自动更新,留痕操作记录,1
+actionType,manual,人工更新,留痕操作记录,0
+actionType,script,脚本提交更新,留痕操作记录,2
+actionType,upload,外部导入更新,留痕操作记录,2
+AdjustedFlag,0,增加,复核操作,0
+AdjustedFlag,1,减少,复核操作,1
+AdjustedFlag,2,实际值,复核操作,2
+AffiliateCode,0,非关联方,,0
+AffiliateCode,1,是关联方,,1
+algoStatus,1,运行中,intelligentorder,1
+algoStatus,2,撤销中,intelligentorder,2
+algoStatus,3,强制撤销中,intelligentorder,3
+algoStatus,4,修改中,intelligentorder,4
+algoStatus,5,已停止{{Stopped}},intelligentorder,5
+algoStatus,6,已完成{{Fininshed}}, intelligentorder ,6
+algoStatus,7,已暂停{{Paused}}, intelligentorder ,7
+algoStatus,8,恢复中{{Recovering}}, intelligentorder ,8
+APIAuthMode,A,基础模版{{Basic Template}},,0
+APIAuthMode,B,策略模版{{Strategy Template}},,0
+APIAuthMode_A,00080077,查询行情快照,,4
+APIAuthMode_A,50000003,API服务登录,,0
+APIAuthMode_A,50150001,交易下单,,10
+APIAuthMode_A,50150005,交易撤单,,11
+APIAuthMode_A,50150015,群组交易下单,,12
+APIAuthMode_A,50152001,查询委托信息,,20
+APIAuthMode_A,50152003,查询成交信息,,21
+APIAuthMode_A,50159001,资金帐号登录,,3
+APIAuthMode_A,52210081,查询产品资产,,1
+APIAuthMode_A,52210085,查询产品信息,,2
+APIAuthMode_B,50121003,策略撤单/补单,,1
+APIAuthMode_B,50121021,策略撤销{{Strategy Cancel}},,3
+APIAuthMode_B,50121023,策略审批,,2
+APIAuthMode_B,50122005,查询策略信息,,10
+APIAuthMode_B,50122009,查询策略明细信息,,11
+APIAuthMode_B,50125001,指令下达/修改,,4
+APIAuthMode_B,50125011,指令暂停/终止/恢复,,5
+APIAuthMode_B,50152059,查询指令明细信息,,14
+APIAuthMode_B,50152081,查询指令委托信息,,12
+APIAuthMode_B,50152083,查询指令成交信息,,13
+ArbitrageStatus,0,开仓中,开仓中,0
+ArbitrageStatus,1,开仓完成,开仓完成,1
+ArbitrageStatus,2,调整中,调整中,2
+ArbitrageStatus,3,调整完成,调整完成,3
+ArbitrageStatus,4,平仓中,平仓中,4
+ArbitrageStatus,5,部分平仓,部分平仓,5
+ArbitrageStatus,6,套利完成,套利完成,6
+ArbitrageStatus,7,套利终止,套利终止,7
+arbitrageType,0,溢价套利,,0
+arbitrageType,1,折价套利,,1
+assetCategory,A0,现金/股票,资金股份类,0
+assetCategory,A1,逆回购资金,资金,1
+assetCategory,A2,ETF现金替代/现金差额,资金,2
+assetCategory,A3,IPO资金冻结,资金(特殊第三方),3
+assetCategory,A4,正回购资金,资金,4
+assetCategory,B1,质押,股份类,0
+assetCategory,B2,基金合并,股份类,1
+AssetClassType,1,资产类{{Asset Category}},,0
+AssetClassType,2,负债类{{Liability Category}},,1
+AssetClassType,3,共同类{{Common Category}},,2
+AssetClassType,4,权益类{{Equitt Category}},,3
+AssetClassType,6,损益类{{Income Category}},,4
+AssetFlag,-1,贷{{Credit}},,1
+AssetFlag,1,借{{Debit}},,0
+assetInvestType,1,股票型,,1
+assetInvestType,2,债券型,,2
+assetInvestType,3,混合型,,3
+assetInvestType,4,货币型,,4
+assetInvestType,5,指数型,,5
+assetType,0,资金{{Fund}},,0
+assetType,1,股份{{Positions}},,1
+AttributeType,0,普通业务,融资融券头寸类型,0
+AttributeType,1,专项业务,融资融券头寸类型,1
+AttributeType,2,共享头寸,融资融券头寸类型,2
+AuditFlag,0,未复核,,0
+AuditFlag,1,复核未通过,,1
+AuditFlag,2,复核通过,,2
+AuditFlag,3,留痕,,3
+autoArbitrageType,Auto_1,买+申,,1
+autoArbitrageType,Auto_2,赎+卖,,2
+autoArbitrageType,Auto_3,自动套利,,3
+autoArbitrageType,MANUAL,手工套利,,4
+autoArbitrageType,MANUAL_10,买ETF+卖开,,10
+autoArbitrageType,MANUAL_11,买股+申+卖开,,11
+autoArbitrageType,MANUAL_13,卖ETF+买平,,13
+A_PriceStrategy,A1,本方1,市价委托,5
+A_PriceStrategy,A2,本方2,市价委托,6
+A_PriceStrategy,A3,本方3,市价委托,7
+A_PriceStrategy,A4,本方4,市价委托,8
+A_PriceStrategy,A5,本方5,市价委托,9
+A_PriceStrategy,D1,对方1,市价委托,10
+A_PriceStrategy,D2,对方2,市价委托,11
+A_PriceStrategy,D3,对方3,市价委托,12
+A_PriceStrategy,D4,对方4,市价委托,13
+A_PriceStrategy,D5,对方5,市价委托,14
+A_PriceStrategy,NP,最新,市价委托,0
+A_PriceStrategy,PC,昨收,市价委托,3
+A_PriceStrategy,ST,涨停,市价委托,1
+A_PriceStrategy,ZT,跌停,市价委托,2
+basicStkType,ASH,A股,个股期权标的证券类型,1
+basicStkType,EBS,ETF,个股期权标的证券类型,0
+basicStkType,IDX,指数,个股期权标的证券类型,2
+BasketStrategy,0,整数,整数,0
+BasketStrategy,1,比例,比例,1
+BasketStrategy,2,等金额,等金额,2
+BasketStrategy,3,等数量,等数量,3
+BasketStrategy,4,市值权重,市值权重,4
+BasketType,0,交易所发布{{Exchange Publishing}},,0
+BasketType,1,权重组合{{Weighted Portfolio}},,1
+BasketType,2,现货组合{{Spot Portfolio}},,2
+BasketType,3,期货组合{{Futures Portfolio}},,3
+BasketType,4,期现组合{{Spot Futures Portfolio}},,4
+BasketType,5,混合组合{{Mixed Portfolio}},,5
+BatchStatus,0,新建,新建,0
+BatchStatus,1,执行中,执行中,1
+BatchStatus,2,完成,完成,2
+BatchStatus,3,委托失败,委托失败,3
+BatchStatus,4,挂单中,挂单中,4
+BatchStatus,5,已撤单,已撤单,5
+BatchStatus,6,审批中{{Approving}},审批中,6
+BatchStatus,7,审批/检查不通过,审批失败,7
+BIGCLASSNAME,1,利率债,,0
+BIGCLASSNAME,2,信用债,,1
+BOND,ASSET_BOND,资产证券化债,Stktype2,6
+BOND,CONV_BOND,可转债,Stktype2,4
+BOND,CORP_BOND,公司债,Stktype2,2
+BOND,DIRE_CONV_BOND,定向可转债,stkType2,23
+BOND,EXCHANGEABLE_BOND,可交换债,Stktype2,16
+BOND,E_BOND,企业债券,Stktype2,1
+BOND,GOV_BOND,地方政府债,Stktype2,3
+BOND,JUNIOR_BOND,次级债,Stktype2,14
+BOND,OTHER_BOND,其他债券,Stktype2,7
+BOND,PRIVATE_BOND,私募债,Stktype2,15
+BOND,SPILT_BOND,分离式可转债,Stktype2,5
+BOND,T_BOND,国债,Stktype2,0
+Bond_InterestType,1,固定利率{{Fixed Interst Rate}},,0
+Bond_InterestType,2,浮动利率{{Floating Interest Rate}},,1
+Bond_InterestType,3,累进利率,,2
+Bond_InterestType,4,零息或贴现,,3
+Bond_InterestType,9,其他,,8
+bsControl,0,仅买入,风控业务使用,0
+bsControl,1,仅卖出,风控业务使用,1
+bsControl,2,买卖合并计算,风控业务使用,2
+bsControl,3,买卖轧差计算,风控业务使用,3
+bsFlag,B,多头{{Long}},,0
+bsFlag,S,空头{{Short}},,1
+bsPermit,0,买入{{Buy}},Buy,0
+bsPermit,1,卖出{{Sell}},Sell,1
+bsPermit,2,双向{{Two Ways}},双向,2
+BSType,A,申购{{Subscription}},,2
+BSType,B,买入{{Buy}},,0
+BSType,O,场外ETF申购{{ETF OTC Creation}},,4
+BSType,P,场外ETF赎回{{ETF OTC Redemption}},,5
+BSType,R,赎回{{Redemption}},,3
+BSType,S,卖出{{Sell}},,1
+BusinessType,A,申购{{Subscription}},,2
+BusinessType,BC,买入平仓{{Buy Close}},,3
+BusinessType,BD,买入到期{{Buy Expiry}},,7
+BusinessType,BDTC,备兑调仓,,57
+BusinessType,BG,多头估增{{Long Position Unrealized PnL}},,19
+BusinessType,BO,买入开仓{{Buy Open}},,0
+BusinessType,BS,多头交割{{Long Position Delivery}},,15
+BusinessType,CF,拆分,,6
+BusinessType,CKYW,存款{{Deposit}},,58
+BusinessType,DF,兑付,,5
+BusinessType,DT_JGSY,多头交割损益{{Long Position Delivery PnL}},,17
+BusinessType,DT_PCSY,多头平仓损益{{Long Position Realized PnL}},,13
+BusinessType,DX,兑息,,4
+BusinessType,ETF_SG,ETF申购{{ETF Creation}},,25
+BusinessType,ETF_SH,ETF赎回{{ETF Redemption}},,26
+BusinessType,GLF,管理费{{Management Fee}},,30
+BusinessType,GP_ETF_SG,股票ETF申购{{Stock ETF Creation}},,27
+BusinessType,GP_ETF_SH,股票ETF赎回{{Stock ETF Redemption}},,28
+BusinessType,HL,红利{{Cash Dividend}},,0
+BusinessType,JX,计息,,29
+BusinessType,JYBZJ,存入保证金{{Deposit Margin}},,23
+BusinessType,JYFY,交易费用{{Trading Fee}},,22
+BusinessType,JZSY_FY,费用结转{{Carry Forward on Fee}},,43
+BusinessType,JZSY_GY,公允价值结转{{Carry Forward on Fair Value}},,41
+BusinessType,JZSY_SR,收入结转{{Carry Forward on Income}},,42
+BusinessType,JZSY_WSX,未实现结转{{Carry Forward on Unrealized PnL}},,45
+BusinessType,JZSY_YSX,已实现结转{{Carry Forawrd on Realized PnL}},,44
+BusinessType,KT_JGSY,空头交割损益{{Short Position Delivery PnL}},,18
+BusinessType,KT_PCSY,空头平仓损益{{Short Position Realized PnL}},,14
+BusinessType,O,场外ETF申购{{ETF OTC Creation}},,5
+BusinessType,P,场外ETF赎回{{ETF OTC Redemption}},,6
+BusinessType,PG,配股{{Right Issues}},,3
+BusinessType,PG_CQ,配股除权,,49
+BusinessType,PG_JKQR,配股缴款确认,,48
+BusinessType,PX,派息{{Dividend}},,46
+BusinessType,PXDZ,派息到账,,47
+BusinessType,QKYW,取款{{Withdraw}},,59
+BusinessType,QLFQQ,权利方弃权,,52
+BusinessType,QLFRGXQ,权利方认购行权{{Exercise Call Options}},,50
+BusinessType,QLFRUXQ,权利方认沽行权{{Exercise Put Options}},,51
+BusinessType,R,赎回{{Redmeption}},,3
+BusinessType,RGQZ,认购权证送配，,,7
+BusinessType,RZDC,日终对冲{{EOD Offset}},,56
+BusinessType,RZQZ,认沽权证送配，,,8
+BusinessType,SC,卖出平仓{{Sell Close}},,1
+BusinessType,SD,卖出到期{{Sell Expiry}},,8
+BusinessType,SG,空头估增{{Short Position Unrealized PnL}},,20
+BusinessType,SO,卖出开仓{{Sell Open}},,2
+BusinessType,SS,空头交割{{Short Position Delivery}},,16
+BusinessType,TGF,托管费{{Custody Fee}},,31
+BusinessType,TQBZJ,提取保证金{{Withdraw Margin}},,24
+BusinessType,TZBZJ,调整保证金{{Margin Adjustment}},,22
+BusinessType,TZGWF,投资顾问费{{Advisor Fee}},,33
+BusinessType,WBF,外包费{{Outsourcing Fee}},,32
+BusinessType,WFZJS,无负债结算{{Mark to Market Settlement}},,21
+BusinessType,XJDJ,现金对价,,9
+BusinessType,XSFWF,销售服务费{{Sales Service Fee}},,34
+BusinessType,YWFBQQ,义务方被弃权,,55
+BusinessType,YWFRGBXQ,义务方认购被行权,,53
+BusinessType,YWFRUBXQ,义务方认沽被行权,,54
+BusinessType,ZFGLF,支付管理费{{Mgmt Fee Payment}},,35
+BusinessType,ZFTGF,支付托管费{{Custody Fee Payment}},,36
+BusinessType,ZFTZGWF,支付投顾费{{Advisor Fee Payment}},,38
+BusinessType,ZFWBF,支付外包费{{Outsourcing Fee Payment}},,37
+BusinessType,ZFXSFWF,支付销售服务费{{Sales Service Fee Payment}},,39
+BusinessType,ZG,赠股,,2
+BusinessType,ZQ,中签{{IPO Lottery Winnin}},,40
+BuyOrderMode,0,调整到,OpenOrderMode,0
+BuyOrderMode,1,买入,OpenOrderMode,1
+BuyOrderMode,2,卖出,OpenOrderMode,2
+CalcInterestType,0,A/365,实际天数/365，若该计息周期包含2月29日，计算改日利息,0
+CalcInterestType,1,A/A,实际天数/实际天数,1
+CalcInterestType,2,A/360,实际天数/360,2
+CalcInterestType,3,A/365F,实际天数/365(固定)，若该计息周期包含2月29日，不计算改日利息,3
+CalcInterestType,4,30/360,,4
+CalcInterestType,5,A/A(ISMA),实际天数/实际天数(银行间市场),5
+Channel,A,APIGateway,,0
+Channel,B,FixGateway,,1
+Channel,P,PhoneGateway,,2
+chargeType,0,只收佣金,佣金设置,0
+chargeType,1,佣金+一级,佣金设置,1
+CityInvestment,0,非城投,,0
+CityInvestment,1,城投,,1
+closeFlag,F,正常{{Normal}},,0
+closeFlag,T,停牌{{Suspension}},,0
+closeStkNavFlag,1,按收盘价{{By Closing Price}},,0
+closeStkNavFlag,2,按公允价{{By Fair Value}},,1
+combineType,Arb,0,套利单,0
+combineType,Comb,1,组合保证金,1
+combineType,PosComb,2,持仓组合,2
+CommisionType,ALL,标准特殊费用,TradingFeeDiscount,0
+CommisionType,ProductNum,产品特殊费用,TradingFeeDiscount,1
+CommisionType,TradingfeeList,费用模版分类,TradingFeeDiscount,1
+CommRuleType,1,流程审核组,,1
+CommRuleType,2,自动分发组,,2
+CommRuleType,3,交易执行组,,3
+CompactStatus,0,开仓未归还,开仓未归还,0
+CompactStatus,1,部分归还,部分归还,1
+CompactStatus,2,合约已过期,合约已过期,2
+CompactStatus,3,客户自行归还,客户自行归还,3
+CompactStatus,4,手工了结,手工了结,4
+CompactStatus,5,未形成负债,未形成负债,5
+CompareType,0,大于等于{{>=}},,0
+CompareType,1,大于{{>}},,1
+CompareType,2,小于等于{{<=}},,2
+CompareType,3,小于{{<}},,3
+CompareType,4,属于{{In}},,4
+CompareType,5,不属于{{Not In}},,5
+CompInfoCompType,101,保险公司,,1
+CompInfoCompType,102,保险分公司,,2
+CompInfoCompType,103,保险资产管理公司,,3
+CompInfoCompType,104,保险产品,,4
+CompInfoCompType,105,财险保险公司,,5
+CompInfoCompType,106,寿险保险公司,,6
+CompInfoCompType,107,再保险公司,,7
+CompInfoCompType,108,保险中介机构,,8
+CompInfoCompType,109,保险集团、控股公司,,9
+CompInfoCompType,199,保险业其他,,10
+CompInfoCompType,201,银行,,11
+CompInfoCompType,202,银行分行,,12
+CompInfoCompType,203,国有银行,,13
+CompInfoCompType,204,政策性银行,,14
+CompInfoCompType,205,股份制银行,,15
+CompInfoCompType,206,外资银行,,16
+CompInfoCompType,207,城市商业银行,,17
+CompInfoCompType,208,农村商业银行,,18
+CompInfoCompType,210,银行理财子公司,,19
+CompInfoCompType,299,银行业其他,,20
+CompInfoCompType,301,证券公司,,21
+CompInfoCompType,302,基金公司,,22
+CompInfoCompType,303,期货公司,,23
+CompInfoCompType,304,证券金融公司,,24
+CompInfoCompType,305,证券资产管理公司,,25
+CompInfoCompType,399,证券业其他,,26
+CompInfoCompType,401,非金融机构,,27
+CompInfoCompType,499,非金融机构其他,,28
+CompInfoCompType,501,信托公司,,29
+CompInfoCompType,502,担保公司,,30
+CompInfoCompType,503,资产管理公司,,31
+CompInfoCompType,504,财务公司,,32
+CompInfoCompType,505,金融租赁公司,,33
+CompInfoCompType,599,其他金融机构,,34
+CompInfoCompType,601,社保基金,,35
+CompInfoCompType,602,企业年金,,36
+CompInfoCompType,603,集合资产管理计划,,37
+CompInfoCompType,604,基金资产管理计划,,38
+CompInfoCompType,605,信托计划,,39
+CompInfoCompType,606,银行理财产品,,40
+CompInfoCompType,607,个人,,41
+CompInfoCompType,699,其他,,42
+completeFlag,0,0,不参与计算,0
+completeFlag,1,1,非实时计算,1
+completeFlag,2,2,实时计算,2
+ConditionStatus,0,监控中,条件状态,0
+ConditionStatus,1,暂停,条件状态,1
+ConditionStatus,2,触发待确认,条件状态,2
+ConditionStatus,3,下单,条件状态,3
+ConditionStatus,4,完成,条件状态,4
+ConditionStatus,9,删除,条件状态,5
+ContractSerialNo,0,所有{{All}},,0
+ContractSerialNo,1,当月{{Current Month}},,1
+ContractSerialNo,10,连续月,,10
+ContractSerialNo,11,连续月,,11
+ContractSerialNo,12,连续月,,12
+ContractSerialNo,2,下月{{Next Month}},,2
+ContractSerialNo,3,连续月{{Consective Month}},,3
+ContractSerialNo,4,连续月,,4
+ContractSerialNo,5,连续月,,5
+ContractSerialNo,6,连续月,,6
+ContractSerialNo,7,连续月,,7
+ContractSerialNo,8,连续月,,8
+ContractSerialNo,9,连续月,,9
+copyright,2018年10月,版本制作时间,,0
+CoveredFlag,0,非备兑{{Not Covered}},,0
+CoveredFlag,1,备兑{{Covered}},,1
+CPAcctType,1,普通账号,,1
+CPAcctType,2,中债DVP,,2
+CPAcctType,3,清算所DVP,,3
+CPAcctType,4,交易所,,4
+CPAcctType,5,其他,,5
+CPcategory,A,银行业金融机构,,0
+CPcategory,B,证券业金融机构,,1
+CPcategory,C,保险业金融机构,,2
+CPcategory,D,其他金融机构,,3
+CPcategory,E,非金融机构,暂不细分,4
+CPcategory,F,其他,,5
+CPcategorySub,A0,国有银行,,0
+CPcategorySub,A1,股份制银行,,1
+CPcategorySub,A2,政策性银行,,2
+CPcategorySub,A3,城市商业银行,,3
+CPcategorySub,A4,农村商业银行,,4
+CPcategorySub,A5,外资银行,,5
+CPcategorySub,A6,银行理财子公司,,6
+CPcategorySub,B0,证券公司,,7
+CPcategorySub,B1,基金公司,,8
+CPcategorySub,B2,期货公司,,9
+CPcategorySub,B3,证券资产管理公司,,10
+CPcategorySub,B4,基金子公司,,11
+CPcategorySub,C0,保险集团、控股公司,,12
+CPcategorySub,C1,寿险保险公司,,13
+CPcategorySub,C2,财险保险公司,,14
+CPcategorySub,C3,再保险公司,,15
+CPcategorySub,C4,保险资产管理公司,,16
+CPcategorySub,C5,外资保险公司代表处,,17
+CPcategorySub,C6,保险中介机构,,18
+CPcategorySub,D0,资产管理公司,,19
+CPcategorySub,D1,信托公司,,20
+CPcategorySub,D2,财务公司,,21
+CPcategorySub,D3,私募基金,,22
+CPcategorySub,D4,担保公司,,23
+CPcategorySub,D5,金融租赁公司,,24
+CPcategorySub,D6,其他,包括汽车租赁、货币经纪、消费金融、小额信贷等,25
+CPcategorySub,F0,个人,,26
+CPcategorySub,F1,其他,,27
+CPcategorySub,U,待分类,,28
+CPLevel,1,甲类,,1
+CPLevel,2,乙类,,2
+CPLevel,3,丙类,,3
+CPLevel,4,其他,,4
+CPproperty,1,机构法人,,1
+CPproperty,2,机构非法人,,2
+CPproperty,3,产品,,3
+CPproperty,4,其他,,4
+CreditFlag,0,融资,,0
+CreditFlag,1,融券,,1
+CurrencyType,CNY,￥,,0
+CurrencyType,HKD,HKD,HK$,2
+CurrencyType,USD,$,,1
+CustRateId,1,单利,,0
+CustRateId,2,复利,,1
+dataWriteMode,0,读DBF数据{{Read DBF}},,0
+dataWriteMode,1,写DBF数据{{Write DBF}},,1
+dataWriteMode,2,读SQL数据{{Read SQL Data}},,2
+dataWriteMode,3,写SQL数据{{Write SQL Data}},,3
+dataWriteMode,4,数据流{{Data Flow}},,4
+dbfId_type,Basic_Future,期货基本信息{{Futures Basic Info}},,1
+dbfId_type,Basic_Option,个股期权基本信息{{Stock Option Info}},,2
+dbfId_type,Basic_Stock,现货基本信息{{Spot Basic Info}},,0
+dbfId_type,Exdividend,除权除息信息{{Ex-Right Ex-Dividend Info}},,6
+dbfId_type,Newstock,新股信息{{IPO Info}},,3
+dbfId_type,Tradeexchrate,结算汇率信息{{Settlement Exchange Rate Info}},,7
+deliveryFlag,0,未交收{{Settled}},,0
+deliveryFlag,1,已交收{{Unsettled}},,1
+deliveryType,M,非担保人工交收,担保交收标志,0
+deliveryType,S,担保交收,担保交收标志,0
+deliveryType,T,T日非担保自动交收,担保交收标志,0
+deliveryType,U,非担保自动交收,担保交收标志,0
+department,0,公司领导,公司领导,0
+department,1,投资总监,投资总监,1
+department,2,基金经理{{Portfolio Manager}},基金经理,2
+department,3,交易总监{{Head of Trading}},交易总监,3
+department,4,交易员{{Trader}},交易员,4
+Equity,CDR_STOCK,CDR股票,0,17
+ETF,BOND_ETF,债券ETF,Stktype2,11
+ETF,CURRENCY_ETF,货币ETF,Stktype2,13
+ETF,Equity_ETF,科创板ETF,0,19
+ETF,GOLD_ETF,黄金ETF,Stktype2,12
+ETF,NORMAL_ETF,普通ETF ,Stktype2,8
+ETF,StartUpBoard_ETF,创业板ETF,1,20
+ETF,X_A_MARKET_ETF,跨市ETF,Stktype2,10
+ETF,X_MARKET_ETF,跨境ETF,Stktype2,9
+ETFbusinessCode,BuyETF,买入ETF,买入ETF,1
+ETFbusinessCode,Creation,申购,申购,4
+ETFbusinessCode,MergeOrder,合并,合并,7
+ETFbusinessCode,ofsCreation,场外申购,场外申购,2
+ETFbusinessCode,ofsRedeem,场外赎回,场外赎回,3
+ETFbusinessCode,PartitionOrder,分拆,分拆,6
+ETFbusinessCode,Redeem,赎回,赎回,5
+ETFType,1,单市ETF{{Single Market ETF}},,1
+ETFType,2,非本市场现金跨市ETF,,2
+ETFType,21,LOF基金{{LOF}} ,,21
+ETFType,3,跨境ETF,,3
+ETFType,4,货币ETF,,4
+ETFType,5,实物债券ETF,,5
+ETFType,6,现金债券ETF,,6
+ETFType,7,黄金ETF{{Gold ETF}},,7
+ETFType,8,非本市场实物跨市ETF,,8
+ETFType,9,沪深港ETF,,9
+EV_PSFundMarketValueFlag,0,T日单位净值{{T+0 Unit Net Value}},,0
+EV_PSFundMarketValueFlag,1,T-1日单位净值{{T-1 Unit Net Value}},,1
+EV_StkType,BankDeposit,银行存款{{Bank Deposit}},BSide_EV_BankInterest,9
+EV_StkType,Bond,债券{{Bond}},,2
+EV_StkType,BroughtGain,结转损益{{Carry Forward of PnL}},,11
+EV_StkType,ChargesAccrued,计提费用{{Accrued Expenses}},BSide_EV_ProductServiceFee,10
+EV_StkType,CommodityFuture,商品期货{{Commodity Futures}},,6
+EV_StkType,Fund,基金{{Fund}},,1
+EV_StkType,IndexFuture,股指期货{{Stock Index Futures}},,5
+EV_StkType,NewStk,新股{{IPO}},,8
+EV_StkType,Option,个股期权{{Stock Option}},,7
+EV_StkType,Repo_BuyOut,回购_买断式{{Outright Repo}},,4
+EV_StkType,Repo_Pledge,回购_质押式{{Pledge Repo}},,3
+EV_StkType,Stock,股票{{Stock}},,0
+ExchID,0,沪A{{SSE A Shares}},SH,0
+ExchID,1,深A{{SZSE A Shares}},SZ,1
+ExchID,2,沪B{{SSE B Shares}},SH,2
+ExchID,3,深B{{SZSE B Shares}},SZ,3
+ExchID,4,深港通{{SZ HK Stock Connect}},SZ,4
+ExchID,5,沪港通{{SH HK Stock Connect}},SH,5
+ExchID,6,股转A{{New Third Board A}},NTA,6
+ExchID,7,股转B{{New Third Board B}},NTB,7
+ExchID,8,银行间,,8
+ExchID,B,伦敦交易所{{LONDON Exchanges}},B,22
+ExchID,D,大连{{DCE}},D,11
+ExchID,F,中金{{CFFEX}},F,9
+ExchID,G,深股通,G,25
+ExchID,H,香港{{HKEX}},H,17
+ExchID,N,能源{{INE}},N,15
+ExchID,Q,纳斯达克{{NASDAQ Exchanges}},Q,24
+ExchID,S,上海{{SHFE}},S,10
+ExchID,T,沪股通,T,26
+ExchID,U,美国,U,18
+ExchID,V,纽交所{{NEW YORK Exchanges}},V,23
+ExchID,W,芝加哥交易所{{CME Exchanges}},W,23
+ExchID,X,沪权{{SSE Option}},X,13
+ExchID,Y,深权{{SZSE Option}},Y,14
+ExchID,Z,郑州{{CZCE}},Z,12
+exchProperty,0,现货{{Spot}},exchange,0
+exchProperty,1,期货{{Futures}},exchange,1
+exchProperty,2,个股期权{{Stock Option}},exchange,2
+exchProperty,3,场外基金{{OTC Fund}},exchange,3
+exchRateType,CORP,CORP,,1
+exchRateType,USER,USER,,0
+exchType,0,全部{{ALL}},,0
+exchType,1,交易所市场{{Exchange Market}},,1
+exchType,2,OTC市场{{OTC Market}},,2
+Exch_AnualDays,0,360,,0
+Exch_AnualDays,1,365,,1
+Exch_Mkt,0,MktOrderFlag_SH,,0
+Exch_Mkt,1,MktOrderFlag_SZ,,1
+Exch_Mkt,2,MktOrderFlag_SH,,2
+Exch_Mkt,3,MktOrderFlag_SZ,,3
+Exch_Mkt,D,MktOrderFlag_D,,6
+Exch_Mkt,F,MktOrderFlag_IF,,4
+Exch_Mkt,I,MktOrderFlag_IN,,5
+Exch_Mkt,X,MktOrderFlag_X,,8
+Exch_Mkt,Y,MktOrderFlag_Y,,8
+Exch_Mkt,Z,MktOrderFlag_Z,,7
+ExecuteMode,0,直接下单{{Direct Order}},,0
+ExecuteMode,1,算法下单{{Algo Order}},,1
+executeStatus,0,已分发,InstructionDetail表中的executeStatus,0
+executeStatus,1,执行中,InstructionDetail表中的executeStatus,1
+executeStatus,10,待分发,InstructionDetail表中的executeStatus,10
+executeStatus,11,交收成功,InstructionDetail表中的executeStatus,11
+executeStatus,12,交收失败,InstructionDetail表中的executeStatus,12
+executeStatus,2,终止,InstructionDetail表中的executeStatus,2
+executeStatus,3,暂停,InstructionDetail表中的executeStatus,3
+executeStatus,4,完成,InstructionDetail表中的executeStatus,4
+executeStatus,8,待审批,InstructionDetail表中的executeStatus,8
+executeStatus,9,审批不通过,InstructionDetail表中的executeStatus,9
+ExeOptMode,1,图形验证码{{Captcha}},,0
+ExeOptMode,2,手机验证码{{Cell Phone Verification Code}},,1
+extAdminRole,JG,机构管理角色,机构管理角色,0
+ExtendStatus,0,可申请,可申请,0
+ExtendStatus,1,已申请,已申请,1
+ExtendStatus,2,审批通过,审批通过,2
+ExtendStatus,3,审批不通过,审批不通过,3
+ExtendStatus,4,不可申请,不可申请,4
+ExType,00,未知,,0
+ExType,01,分红,,1
+ExType,02,送股,,2
+ExType,03,配股,,3
+ExType,04,增发,,4
+ExType,05,缩股,,5
+ExType,06,股改,,6
+feeCalcFlag,0,价格相同{{Same Price}},,0
+feeCalcFlag,1,合同序号{{Contract No.}},,1
+FeeType,GLF,管理费,,0
+FeeType,TGF,托管费,,1
+FeeType,TZGWF,投顾费,,3
+FeeType,WBF,外包费,,2
+FeeType,XSFWF,销售服务费,,4
+FiCompInfoCompType,1110,综合类券商,,1
+FiCompInfoCompType,1130,经纪类券商,,2
+FiCompInfoCompType,1140,证券分公司,,3
+FiCompInfoCompType,1150,证券营业部,,4
+FiCompInfoCompType,1190,其他证券公司,,5
+FiCompInfoCompType,1199,证券交易所,,6
+FiCompInfoCompType,1300,信托投资公司,,7
+FiCompInfoCompType,1301,信托担保人,,8
+FiCompInfoCompType,1510,证券咨询公司,,9
+FiCompInfoCompType,2100,基金管理公司,,10
+FiCompInfoCompType,2101,证券投资基金,,11
+FiCompInfoCompType,2110,基金分公司,,12
+FiCompInfoCompType,3100,证券监管机构,,13
+FiCompInfoCompType,3200,保险监管机构,,14
+FiCompInfoCompType,3300,银行业监管机构,,15
+FiCompInfoCompType,3400,银行保险监管机构,,16
+FiCompInfoCompType,4110,保险公司,,17
+FiCompInfoCompType,4120,保险分公司,,18
+FiCompInfoCompType,4130,保险资产管理公司,,19
+FiCompInfoCompType,4500,资产管理公司,,20
+FiCompInfoCompType,4700,银行,,21
+FiCompInfoCompType,4710,银行分行,,22
+FiCompInfoCompType,4800,投资银行,,23
+FiCompInfoCompType,5100,财务公司,,24
+FiCompInfoCompType,6100,期货交易所,,25
+FiCompInfoCompType,6110,期货经纪公司,,26
+FiCompInfoCompType,7110,会计师事务所,,27
+FiCompInfoCompType,7130,律师事务所,,28
+FiCompInfoCompType,7140,评估评级公司,,29
+FiCompInfoCompType,8001,指数公司,,30
+FiCompInfoCompType,9900,其他,,31
+FiCompInfoCompType,9901,合格境外机构投资者,,32
+FiCompInfoCompType,9903,社保基金,,33
+FiCompInfoCompType,9905,企业年金,,34
+FiCompInfoCompType,9907,集合资产管理计划,,35
+FiCompInfoCompType,9909,基金资产管理计划,,36
+FiCompInfoCompType,9911,信托公司单一证券信托,,37
+FiCompInfoCompType,9912,信托公司集合信托计划,,38
+FiCompInfoCompType,9913,银行理财产品,,39
+FiCompInfoCompType,9914,保险产品,,40
+FiCompInfoCompType,9915,保险账户,,41
+FiCompInfoCompType,9920,其他分支机构,,42
+FiCompInfoCompType,9930,社会团体,,43
+FiCompInfoCompType,9951,一般院校,,44
+FiCompInfoCompType,9953,高等院校,,45
+FiCompInfoCompType,9955,研究院所机构,,46
+FiCompInfoCompType,9959,院校企业,,47
+FiCompInfoCompType,9961,政府机构,,48
+FiCompInfoCompType,9963,事业单位,,49
+FiCompInfoCompType,9965,国资机构,,50
+FiCompInfoCompType,9967,法院,,51
+FiCompInfoCompType,9996,集合公司,,52
+FiCompInfoCompType,9997,工会持股会,,53
+FiCompInfoCompType,9998,美国上市中国概念公司,,54
+FiCompInfoCompType,9999,自然人,,55
+FileType,0,资金{{Fund}},,0
+FileType,1,持仓{{Positions}},,1
+FileType,2,成交{{Filles}},,2
+FileType,3,清算流水,,3
+FileType,4,估值{{Valuation}},,4
+fillStatus,0,全部成交,02100322,0
+fillStatus,1,部分成交,02100322,1
+fillStatus,2,未成交{{Unfilled}},02100322,2
+fillStatus,3,已撤单{{Canceled}},02100322,3
+fillStatus,4,部分撤单{{Partially Filled}},02100322,4
+fillStatus,5,未报盘{{Unsend}},02100322,5
+fillStatus,6,未报盘{{Unsend}},02100322,6
+financeOrderFlag,0,买入融资,,1
+financeOrderFlag,1,卖出融券,,2
+FixOrderMode,DMA,DMA,FixOrderInbox,1
+FixOrderMode,DSA,DSA,FixOrderInbox,3
+FixOrderMode,WORKEDORDER,WORKEDORDER,FixOrderInbox,2
+FI_bookPlace,1,上证,簿记场所,0
+FI_bookPlace,2,中债登,簿记场所,1
+FI_bookPlace,3,上清所,簿记场所,2
+FI_bookPlace,4,深圳,簿记场所,3
+FI_bookPlace,5,中证,簿记场所,4
+FI_CurrencyId,HKD,港元,币种,2
+FI_CurrencyId,RMB,人民币,币种,0
+FI_CurrencyId,USD,美元,币种,1
+FI_CustodianInstitution,1,上证,,0
+FI_CustodianInstitution,2,中债登,,1
+FI_CustodianInstitution,3,上清所,,2
+FI_CustodianInstitution,4,深交所,,3
+FI_DetailClassName,100101,记账式国债,,0
+FI_DetailClassName,100102,凭证式国债,,0
+FI_DetailClassName,100103,储蓄式国债,,0
+FI_DetailClassName,100104,其他国债,,0
+FI_DetailClassName,100201,地方政府债,,0
+FI_DetailClassName,100301,商业银行金融债,,0
+FI_DetailClassName,100302,保险公司金融债,,0
+FI_DetailClassName,100303,证券公司金融债,,0
+FI_DetailClassName,100304,其他金融机构金融债,,0
+FI_DetailClassName,100401,国家开发银行债,,0
+FI_DetailClassName,100402,进出口银行债,,0
+FI_DetailClassName,100403,农业发展银行债,,0
+FI_DetailClassName,100501,普通企业债,,0
+FI_DetailClassName,100502,集合企业债,,0
+FI_DetailClassName,100503,小微企业债,,0
+FI_DetailClassName,100504,小微集合企业债,,0
+FI_DetailClassName,100601,公司债,,0
+FI_DetailClassName,100701,证券公司次级债,,0
+FI_DetailClassName,100702,商业银行次级债,,0
+FI_DetailClassName,100703,政策性银行次级债,,0
+FI_DetailClassName,100704,期货公司次级债,,0
+FI_DetailClassName,100705,保险公司次级金融债,,0
+FI_DetailClassName,100706,其他金融机构次级债,,0
+FI_DetailClassName,100801,信贷资产证券化(ABS),,0
+FI_DetailClassName,100802,住房抵押贷款证券化(MBS),,0
+FI_DetailClassName,100803,券商专项资产管理(BBS),,0
+FI_DetailClassName,100804,汽车抵押贷款证券化(LBS),,0
+FI_DetailClassName,100805,其它资产支持证券,,0
+FI_DetailClassName,100901,资产支持票据,,0
+FI_DetailClassName,101001,项目收益债券,,0
+FI_DetailClassName,101002,项目收益票据,,0
+FI_DetailClassName,101101,可交换公司债券,,0
+FI_DetailClassName,101201,外国主权政府债,,0
+FI_DetailClassName,101202,外国地方债,,0
+FI_DetailClassName,101301,可转换公司债,,0
+FI_DetailClassName,101302,分离交易可转债,,0
+FI_DetailClassName,101401,证券公司短期公司债券,,0
+FI_DetailClassName,101501,央行票据,,0
+FI_DetailClassName,101601,商业银行同业存单,,0
+FI_DetailClassName,101602,政策性银行同业存单,,0
+FI_DetailClassName,101701,二级资本工具,,0
+FI_DetailClassName,101801,商业银行混合资本债,,0
+FI_DetailClassName,101802,保险公司混合资本债,,0
+FI_DetailClassName,101901,国际开发机构债,,0
+FI_DetailClassName,102001,中国铁道部短期融资券,,0
+FI_DetailClassName,102002,证券公司短期融资券,,0
+FI_DetailClassName,102003,一般短期融资券,,0
+FI_DetailClassName,102101,中国铁道部中期票据,,0
+FI_DetailClassName,102102,中期票据,,0
+FI_DetailClassName,102201,集合票据,,0
+FI_DetailClassName,102202,区域集优票据,,0
+FI_DetailClassName,102203,集合债券,,0
+FI_DetailClassName,102301,中国铁道部超短期融资,,0
+FI_DetailClassName,102302,超短期融资债券,,0
+FI_DetailClassName,102401,保险公司资本补充债,,0
+FI_DetailClassName,102501,绿色债务融资工具,,0
+FI_DetailClassName,102601,信用风险缓释凭证,,0
+FI_DetailClassName,102701,非公开定向债务融资工具,,0
+FI_DetailClassName,102801,信用联结票据,,0
+FI_DetailClassName,102901,无固定期限资本债券,,0
+FI_DetailClassName,103001,标准化票据,,0
+FI_DetailClassName,103101,中国铁道部一般债券,,0
+FI_DetailClassName,103102,汇金债,,0
+FI_DetailClassName,103201,中小企业私募债,,0
+FI_DetailClassName,103301,大额存单,,0
+FI_DetailClassName,109901,其他债券,,0
+FI_ExptRating,1,正面,评级展望,0
+FI_ExptRating,2,稳定,评级展望,1
+FI_ExptRating,3,负面,评级展望,2
+FI_ExptRating,4,列入评级观察(可能调高),评级展望,3
+FI_ExptRating,5,列入评级观察(可能调低),评级展望,4
+FI_ExptRating,6,列入评级观察(走势不明),评级展望,5
+FI_ExptRating,7,待决,评级展望,6
+FI_ExptRating,9,无,评级展望,7
+fi_isRight,1,不含权,,0
+fi_isRight,2,含权,,1
+FI_LevelCode,A,A,评级,5
+FI_LevelCode,A+,A+,评级,4
+FI_LevelCode,A-,A-,评级,6
+FI_LevelCode,AA,AA,评级,2
+FI_LevelCode,AA+,AA+,评级,1
+FI_LevelCode,AA-,AA-,评级,3
+FI_LevelCode,AAA,AAA,评级,0
+FI_LevelCode,B,B,评级,14
+FI_LevelCode,B+,B+,评级,13
+FI_LevelCode,B-,B-,评级,15
+FI_LevelCode,BB,BB,评级,11
+FI_LevelCode,BB+,BB+,评级,10
+FI_LevelCode,BB-,BB-,评级,12
+FI_LevelCode,BBB,BBB,评级,8
+FI_LevelCode,BBB+,BBB+,评级,7
+FI_LevelCode,BBB-,BBB-,评级,9
+FI_LevelCode,C,C,评级,18
+FI_LevelCode,CC,CC,评级,17
+FI_LevelCode,CCC,CCC,评级,16
+FI_raisemode,1,公募债券,债券募集方式,0
+FI_raisemode,2,私募债券,债券募集方式,1
+FI_RatingMode,1,长期评级,,0
+FI_RatingMode,2,短期评级,,1
+FI_RatingType,1,外部评级,,0
+FI_RatingType,2,内部评级,,1
+FI_Recommendation,0,推荐,,0
+FI_Recommendation,1,不推荐,,1
+FI_RightType,1,持有人回售权,行权类型,0
+FI_RightType,17,持有人可转换选择权,行权类型,16
+FI_RightType,2,发行人赎回权,行权类型,1
+FI_RightType,3,持有人可调换选择权,行权类型,2
+FI_RightType,7,发行人调整票面利率选择权,行权类型,6
+FI_ValuationType,1,行权估值,,0
+FI_ValuationType,2,到期估值,,1
+FTBuySellFlag,0,不轧差,,0
+FTRiskPrice,2,最新价,,2
+FTRiskPrice,5,前结算价,,5
+FTriskStkGroupCrtl,Ftproduct,期货品种,Ftproduct,6
+FTriskStkGroupCrtl,stkPool,股票池,stkPool,3
+FTriskStkGroupCrtl,stockId,期货合约,stockId,5
+funcType,0,菜单{{Menu}},,0
+funcType,1,窗体{{Window}},,1
+funcType,2,分隔线{{Divider}},,2
+funcType,3,TAB页签{{TAB}},,3
+funcType,4,通用查询{{General Query}},,4
+funcType,5,按扭{{Button}},,5
+Fund,INFRAST_LOF,公募REITs基金,Stktype2,17
+FUND,LOF_FUND,LOF基金,Stktype2,20
+FundInvestType,1,股票型,基金投资类型,0
+FundInvestType,2,债券型,基金投资类型,1
+FundInvestType,3,货币型,基金投资类型,2
+FundInvestType,4,指数型,基金投资类型,3
+FundInvestType,5,混合型,基金投资类型,4
+FundInvestType,6,FOF,基金投资类型,5
+FundInvestType,7,保本型,基金投资类型,6
+FundInvestType,9,其他型,基金投资类型,7
+FundRedemption,0,不处理资金股份,,0
+FundRedemption,1,处理资金股份,,1
+FundStatus,0,正常交易{{Normal Trading}},,0
+FundStatus,1,认购期{{Subscription Period}},,1
+FundStatus,2,发行成功,,2
+FundStatus,3,发行失败,,3
+FundStatus,4,暂停交易{{Trading Suspension}},,4
+FundStatus,5,暂停申购{{Subscription Sub}},,5
+FundStatus,6,暂停赎回,,6
+FundStatus,7,权益登记,,7
+FundStatus,8,红利发放,,8
+FundStatus,9,基金封闭,,9
+FundStatus,A,基金终止,,0
+FundWorkType,1,开放式{{Close-Ended}},,1
+FundWorkType,2,封闭式{{Open-Ended}},,2
+F_hedgeFlag,ARB,套利,套保标志,3
+F_hedgeFlag,HEDGE,套保,套保标志,0
+F_hedgeFlag,SPEC,投机,套保标志,1
+F_MatchCondition_D_A,FAK,立即成交剩余撤销,,7
+F_MatchCondition_D_A,FOK,立即全部成交否则撤销,,8
+F_MatchCondition_D_A,GFD,当日有效,,6
+F_MatchCondition_D_A,SLA,市价止损,,10
+F_MatchCondition_D_A,SPA,市价止盈,,9
+F_MatchCondition_D_L,FAK,立即成交剩余指令自动撤销{{FAK}},,1
+F_MatchCondition_D_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_D_L,GFD,当日有效,,0
+F_MatchCondition_D_L,SLS,限价止损,,4
+F_MatchCondition_D_L,SPO,限价止盈,,3
+F_MatchCondition_F_A,BST,最优一档剩撤{{Best One Then Cancel}},,5
+F_MatchCondition_F_A,BTL,最优一档剩转{{Best One Then Limit}},,6
+F_MatchCondition_F_A,FLV,最优五档剩撤{{FLV}}{{Best Five Then Cancel}},,3
+F_MatchCondition_F_A,FTL,最优五档剩转{{FTL}}{{Best Five Then Limit}},,4
+F_MatchCondition_F_L,FAK,立即成交剩余撤销{{FAK}},,1
+F_MatchCondition_F_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_F_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_M_A,FAK,立即成交剩余撤销,,7
+F_MatchCondition_M_A,FOK,立即全部成交否则撤销,,8
+F_MatchCondition_M_A,GFD,当日有效,,6
+F_MatchCondition_M_A,SLA,市价止损,,10
+F_MatchCondition_M_A,SPA,市价止盈,,9
+F_MatchCondition_M_L,FAK,立即成交剩余撤销,,2
+F_MatchCondition_M_L,FOK,立即全部成交否则撤销,,3
+F_MatchCondition_M_L,GFD,当日有效,,1
+F_MatchCondition_M_L,SLS,限价止损,,5
+F_MatchCondition_M_L,SPO,限价止盈,,4
+F_MatchCondition_N_L,FAK,立即成交剩余指令自动撤销{{FAK}},,1
+F_MatchCondition_N_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_N_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_OD_A,FAK,立即成交剩余撤销{{FAK}},,0
+F_MatchCondition_OD_A,FOK,立即全部成交否则撤销{{FOK}},,2
+F_MatchCondition_OD_A,GFD,当日有效{{GFD}},,1
+F_MatchCondition_OD_A,SLA,市价止损{{Stop Market}},,4
+F_MatchCondition_OD_A,SPA,市价止盈{{Profit Market}},,3
+F_MatchCondition_OD_L,FAK,立即成交剩余撤销{{FAK}},,1
+F_MatchCondition_OD_L,FOK,立即全部成交否则撤销{{FOK}},,2
+F_MatchCondition_OD_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_OD_L,SLS,限价止损{{Stop Limit}},,4
+F_MatchCondition_OD_L,SPO,限价止盈{{Profit Limit}},,3
+F_MatchCondition_OM_L,FAK,立即成交剩余撤销,,2
+F_MatchCondition_OM_L,FOK,立即全部成交否则撤销,,3
+F_MatchCondition_OM_L,GFD,当日有效,,1
+F_MatchCondition_OM_L,SLS,限价止损,,5
+F_MatchCondition_OM_L,SPO,限价止盈,,4
+F_MatchCondition_ON_L,FAK,立即成交剩余指令自动撤销{{FAK}},,1
+F_MatchCondition_ON_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_ON_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_OZ_A,FAK,立即成交剩余撤销{{FAK}},,0
+F_MatchCondition_OZ_A,FOK,立即全部成交否则撤销{{FOK}},,2
+F_MatchCondition_OZ_A,GFD,当日有效{{GFD}},,1
+F_MatchCondition_OZ_L,FAK,立即成交剩余撤销{{FAK}},,1
+F_MatchCondition_OZ_L,FOK,立即全部成交否则撤销{{FOk}},,2
+F_MatchCondition_OZ_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_S_L,FAK,立即成交剩余指令自动撤销{{FAK}},,1
+F_MatchCondition_S_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_S_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_X_A,FOK,立即全部成交否则自动撤销{{FOK}},,4
+F_MatchCondition_X_A,GFD,当日有效{{GFD}},,3
+F_MatchCondition_X_A,IOC,"立即完成,否则撤销{{IOC}}",,5
+F_MatchCondition_X_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_X_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_Y_A,A,即时成交{{Immediate Fills}},,0
+F_MatchCondition_Y_A,B,最优五档{{Best Five}},,1
+F_MatchCondition_Y_A,C,全额成交{{All Fills}},,2
+F_MatchCondition_Y_A,D,本方最优价格{{Current Side Best Price}},,3
+F_MatchCondition_Y_A,E,对手最优价格{{Opposite Best Price}},,4
+F_MatchCondition_Y_L,FOK,立即全部成交否则自动撤销{{FOK}},,2
+F_MatchCondition_Y_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_Z_A,IOC,"立即完成,否则撤销{{IOC}}",,3
+F_MatchCondition_Z_L,FAK,立即成交剩余指令自动撤销{{FAK}},,1
+F_MatchCondition_Z_L,GFD,当日有效{{GFD}},,0
+F_MatchCondition_Z_L,SLS,限价止损{{Stop Limit}},,2
+F_offSetFlag,CLOSE,平仓{{Close}},,1
+F_offSetFlag,CLOSETD,平今{{Close Today}},,3
+F_offSetFlag,CLOSEYD,平昨{{Close Yesterday}},,4
+F_offSetFlag,FCLOSE,强平{{Forced Liquidation}},,2
+F_offSetFlag,OPEN,开仓{{Open}},,0
+F_OrderPriceType,ANY,市价{{Market Price}},,1
+F_OrderPriceType,LIMIT,限价{{Limit Price}},,0
+F_PriceStrategy,AT,自动{{Auto}},,0
+F_PriceStrategy,B1,买①{{Bid 1}},,5
+F_PriceStrategy,B2,买②{{Bid 2}},,6
+F_PriceStrategy,B3,买③{{Bid 3}},,7
+F_PriceStrategy,B4,买④{{Bid 4}},,8
+F_PriceStrategy,B5,买⑤{{Bid 5}},,9
+F_PriceStrategy,GD,固定,固定委托,16
+F_PriceStrategy,MP,市价{{Market Price}},,1
+F_PriceStrategy,NP,最新价{{Last Price}},,2
+F_PriceStrategy,OP,对手,市价委托,15
+F_PriceStrategy,S1,卖①{{Ask 1}},,10
+F_PriceStrategy,S2,卖②{{Ask 2}},,11
+F_PriceStrategy,S3,卖③{{Ask 3}},,12
+F_PriceStrategy,S4,卖④{{Ask 4}},,13
+F_PriceStrategy,S5,卖⑤{{Ask 5}},,14
+F_PriceStrategy,ST,涨停价{{Limit Up Price}},,3
+F_PriceStrategy,ZT,跌停价{{Limit Down Price}},,4
+F_ProductClass,ARBITRAGE,套利单,,2
+F_ProductClass,FUTURE,期货,,0
+F_ProductClass,OPTION,期权,,1
+F_productId,IC,中证500期货,,4
+F_productId,IF,沪深300合约产品,,0
+F_productId,IH,上证50期货,,3
+F_productId,T,十年期国债期货合约产品,,2
+F_productId,TF,国债期货合约产品,,1
+F_S_ArbitrageStatus,0,开仓中{{Opening}},开仓中,0
+F_S_ArbitrageStatus,1,开仓完成{{Open Finished}},开仓完成,1
+F_S_ArbitrageStatus,2,调整中{{Adjusting}},调整中,2
+F_S_ArbitrageStatus,3,调整完成{{Adjustment Finshed}},调整完成,3
+F_S_ArbitrageStatus,4,平仓中{{Closing}},平仓中,4
+F_S_ArbitrageStatus,5,部分平仓,部分平仓,5
+F_S_ArbitrageStatus,6,套利完成{{Arbitrage Finished}},套利完成,6
+F_S_ArbitrageStatus,7,套利终止{{Arbitrage Stoped}},套利终止,7
+F_S_OrderStatus,0,进行中{{Processing}},进行中,1
+F_S_OrderStatus,1,完成{{Finished}},完成,2
+GlobalParaFirstType,0,系统参数,系统参数,0
+GlobalParaFirstType,1,交易参数,交易参数,1
+GlobalParaFirstType,2,指令参数,指令参数,2
+GlobalParaFirstType,3,清算参数,清算参数,3
+GlobalParaFirstType,4,风控参数,风控参数,4
+HSUFT_entrust_bs,1,买入,,0
+HSUFT_entrust_bs,2,卖出,,1
+HSUFT_entrust_prop,0,买卖,,0
+HSUFT_entrust_prop,1,配股,,1
+HSUFT_entrust_prop,2,转托,,2
+HSUFT_entrust_prop,3,申购,,3
+HSUFT_entrust_prop,4,回购,,4
+HSUFT_entrust_prop,5,配售,,5
+HSUFT_entrust_prop,6,指定,,6
+HSUFT_entrust_prop,7,转股,,7
+HSUFT_entrust_prop,8,回售,,8
+HSUFT_entrust_prop,9,股息,,9
+HSUFT_entrust_prop,L,基金申赎,,10
+HSUFT_entrust_prop,N,ETF申赎,,11
+HSUFT_entrust_prop,Q,对手方最优价格,,12
+HSUFT_entrust_prop,R,最优五档即时成交剩余转限价,,13
+HSUFT_entrust_prop,S,本方最优价格,,14
+HSUFT_entrust_prop,T,即时成交剩余撤销,,15
+HSUFT_entrust_prop,U,最优五档即时成交剩余撤销,,16
+HSUFT_entrust_prop,V,全额成交或撤单,,17
+HSUFT_entrust_status,0,未报,,0
+HSUFT_entrust_status,1,待报,,1
+HSUFT_entrust_status,2,已报,,2
+HSUFT_entrust_status,3,已报待撤,,3
+HSUFT_entrust_status,4,部成待撤,,4
+HSUFT_entrust_status,5,部撤,,5
+HSUFT_entrust_status,6,已撤,,6
+HSUFT_entrust_status,7,部成,,7
+HSUFT_entrust_status,8,已成,,8
+HSUFT_entrust_status,9,废单,,9
+HSUFT_entrust_type,0,委托,,0
+HSUFT_entrust_type,1,查询,,1
+HSUFT_entrust_type,2,撤单,,2
+HSUFT_entrust_type,3,补单,,3
+HSUFT_entrust_type,4,确认,,4
+HSUFT_entrust_type,5,大宗,,5
+HSUFT_entrust_type,6,信用融资,,6
+HSUFT_entrust_type,7,信用融券,,7
+HSUFT_entrust_type,8,信用平仓,,8
+HSUFT_entrust_type,9,信用交易,,9
+HSUFT_exchange_type,1,上海,,0
+HSUFT_exchange_type,2,深圳,,1
+InstructFlag,0,指令交易{{Trading Instruction}},,0
+InstructFlag,1,组合(按执行),,1
+InstructFlag,10,期现套利{{Spot-Futures Arbitrage}},,10
+InstructFlag,2,组合(按组合),,2
+InstructFlag,5,自定义策略,,5
+InstructFlag,6,文件交互{{File Interactions}},,6
+InstructFlag,8,个股算法下单,,8
+InstructFlag,9,篮子算法下单{{Algo Basket Order}},,9
+InstructFlowType,0,产品编号{{Product No}},,0
+InstructFlowType,1,指令金额{{Instuction Cash Amount}},,1
+InstructFlowType,2,指令数量{{Instruction Quantity}},,2
+InstructNoOrderFlag,0,不支持回补指令,,0
+InstructNoOrderFlag,1,自动回补指令,,1
+InstructNoOrderFlag,2,手工回补指令,,2
+InstructQtyStrategy,0,产品净资产比,指令数量策略,1
+InstructQtyStrategy,1,单元净资产比,指令数量策略,2
+InstructQtyStrategy,2,持仓数量比,指令数量策略,3
+InstructQtyStrategy,3,固定数量,指令数量策略,4
+InstructQtyStrategy,4,固定金额,指令数量策略,5
+InstructQtyStrategy,5,单元总资产比,指令数量策略,6
+InstructQtyStrategy,6,单元可用比,指令数量策略,7
+InstructQtyStrategy,7,权重系数,指令数量策略,8
+instructStatus,0,未处理,,0
+instructStatus,1,执行,,1
+instructStatus,11,交收成功,,11
+instructStatus,12,交收失败,,12
+instructStatus,2,终止,,2
+instructStatus,3,日终,,3
+instructStatus,4,暂停,,4
+instructStatus,5,完成,,5
+InstructType,0,数量指令{{Quantity Instruction}},,0
+InstructType,1,金额指令{{Cash Amount Instruction}},,1
+IntelligentType,ALGO,ALGO算法,,2
+IntelligentType,DMA,立即下单,,0
+IntelligentType,DSA,DSA订单,,4
+IntelligentType,InterALGO,内部算法,,1
+IntelligentType,Manual,ManalOrder订单,,3
+interestMode,0,不分段计息,currency,0
+interestMode,1,分段计息,currency,1
+interestMode,2,每日计息{{Daily Interest Calculation}},currency,2
+InterestType,0,活期,,0
+InterestType,1,定期,,1
+intervalFlag,0,按金额{{By Cash Amount}},按金额,0
+intervalFlag,1,按数量{{By Quantity}},按数量,1
+InvestStrategy,0,篮子,投资建议,0
+InvestStrategy,2,产品总资产,投资建议,1
+InvestStrategy,3,产品净资产,投资建议,2
+isIrregularCoupon,1,规则,是否为不规则计息,0
+isIrregularCoupon,2,不规则,是否为不规则计息,1
+issueMode,0,贴现,发行模式,0
+issueMode,1,附息,发行模式,1
+legalFlag,-1,待回报,,0
+legalFlag,0,合法,,1
+legalFlag,1,非法,,2
+lineDrawMethod,0,主图叠加,主图叠加,0
+lineDrawMethod,1,副图{{Side Chart}},副图,1
+marginType,0,不收取,组合保证金收取类型,0
+marginType,1,单向大边,组合保证金收取类型,1
+marginType,2,执行价差,组合保证金收取类型,2
+marginType,3,大边加权利金,组合保证金收取类型,3
+marginType,4,结算价差,组合保证金收取类型,4
+marginType,5,大边乘安全系数,组合保证金收取类型,5
+marginType,6,期货保证金加期权权利金,组合保证金收取类型,6
+MarketArea,1,盘口一{{Price 1}},,1
+MarketArea,2,盘口二{{Price 2}},,2
+MarketArea,3,盘口三{{Price 3}},,3
+MarketArea,4,盘口四{{Price 4}},,4
+MarketArea,5,盘口五{{Price 5}},,5
+marketStatus,0,允许交易{{Transaction Allowed}},,0
+marketStatus,1,不允许交易,,0
+marketValueFlag,0,不计算{{Not Calculate}},,0
+marketValueFlag,1,计算{{Calculate}},,1
+MatchCondition,D,F_MatchCondition_D,,1
+MatchCondition,F,F_MatchCondition_F,,0
+MatchCondition,N,F_MatchCondition_N,,6
+MatchCondition,OD,F_MatchCondition_OD,大商所商品期权,3
+MatchCondition,ON,F_MatchCondition_ON,郑商所商品期权,3
+MatchCondition,OZ,F_MatchCondition_OZ,郑商所商品期权,3
+MatchCondition,S,F_MatchCondition_S,,3
+MatchCondition,X,F_MatchCondition_X,,4
+MatchCondition,Y,F_MatchCondition_Y,,5
+MatchCondition,Z,F_MatchCondition_Z,,2
+MatchingFlag,0,仅三方存在,,0
+MatchingFlag,1,双方匹配,,1
+MatchingFlag,2,仅IMS对冲端存在,,2
+MatchingFlag,3,仅IMS合约端存在,,3
+MaxPriceLevels,0,增强竞价限价 ,Openorder,0
+MaxPriceLevels,1,集合竞价限价,Openorder,1
+MaxPriceLevels,2,零股限价,Openorder,2
+MktOrderFlag_D,A,市价,,0
+MktOrderFlag_IF,A,市价,,1
+MktOrderFlag_SH,A,最优五档剩撤,,0
+MktOrderFlag_SH,B,最优五档剩转,,1
+MktOrderFlag_SH,D,本方最优价格,,2
+MktOrderFlag_SH,E,对手最优价格,,3
+MktOrderFlag_SZ,A,即时成交,,0
+MktOrderFlag_SZ,B,最优五档,,1
+MktOrderFlag_SZ,C,全额成交,,2
+MktOrderFlag_SZ,D,本方最优价格,,3
+MktOrderFlag_SZ,E,对手最优价格,,4
+MktOrderFlag_X,A,市价{{Market}},,0
+MktOrderFlag_Y,A,市价{{Market}},,0
+MktOrderFlag_Z,A,市价,,0
+moduleId,BM,管理系统{{Management System}},,1
+moduleId,BT,交易系统{{Trading System}},,2
+monitorLevel,0,禁止,风控业务使用,3
+monitorLevel,1,预警 ,风控业务使用,1
+monitorLevel,2,严重报警,风控业务使用,2
+noonWriteOrderFlag,0,不报盘{{Not Send Order}},,0
+noonWriteOrderFlag,1,报盘{{Send Order}},,1
+NoOrderFlag,N,有委托成交,,0
+NoOrderFlag,Y,无委托成交,,1
+OCFlag,A,自动{{Auto}},,2
+OCFlag,C,平仓{{Close}},,0
+OCFlag,F,强平{{Forced Liquidation}},,6
+OCFlag,O,开仓{{Open}},,1
+OCFlag,R,强减{{Forced Descrease}},,7
+OCFlag,T,平今{{Close Today}},,3
+OCFlag,X,行权{{Exercise}},,5
+OCFlag,Y,平昨{{Close Yesterday}},,4
+offerStatus,0,未执行,,0
+offerStatus,1,执行,,1
+offerStatus,11,交收成功,,11
+offerStatus,12,交收失败,,12
+offerStatus,13,审批中撤销,,13
+offerStatus,2,暂停{{Pasued}},,2
+offerStatus,3,完成/终止{{Finished / Stopped}},,3
+offerStatus,4,继续完成,,4
+offerStatus,5,等待终止,,5
+offerStatus,6,挂起,,6
+offerStatus,8,审批中{{Reviewing}},,8
+offerStatus,9,审批不通过,,9
+offerStrategy,0,一次性数量,intelligentorder,0
+offerStrategy,1,数量平均,intelligentorder,1
+offerStrategy,11,匹配建仓,intelligentorder,11
+offerStrategy,2,扫盘策略{{Sweep Strategy}},intelligentorder,2
+offerStrategy,3,按指令量比,intelligentorder,3
+offerStrategy,4,按执行量比,intelligentorder,4
+offerStrategy,5,金额平均,intelligentorder,5
+offerStrategy,51,VWAP,intelligentorder,51
+offerStrategy,52,IS,intelligentorder,52
+offerStrategy,53,PRICEINLINE,intelligentorder,53
+offerStrategy,54,VOLINLINE,intelligentorder,54
+offerStrategy,55,TWAP,intelligentorder,55
+offerStrategy,56,FLOAT,intelligentorder,56
+offerStrategy,57,HIDDEN,intelligentorder,57
+offerStrategy,58,VWAPPlus,intelligentorder,58
+offerStrategy,59,TWAPPlus,intelligentorder,59
+offerStrategy,6,一次性金额,intelligentorder,6
+offerStrategy,60,DTWAP,intelligentorder,60
+offerStrategy,61,AtClose,intelligentorder,61
+offerStrategy,62,CUSTOM,intelligentorder,62
+offerStrategy,64,DMA+,intelligentorder,64
+offerStrategy,7,随机策略,intelligentorder,7
+offerStrategy,70,PWPL,intelligentorder,70
+offerStrategy,75,TAP,intelligentorder,75
+offerStrategy,76,TAPNOW,intelligentorder,76
+offerStrategy,77,SWOOP,intelligentorder,77
+offerStrategy,93,STRICTTWAP,intelligentorder,93
+offerStrategy,99,RESERVER,intelligentorder,99
+offerType,0,不推送{{No Msg Push}},,0
+offerType,1,支持推送{{Support Msg Push}},,1
+openCloseFlag,0,闭市{{Market Close}},,0
+openCloseFlag,1,开市{{Market Open}},,1
+operationFlag,0,未开始{{Unstart}},,0
+operationFlag,1,进行中{{In Process}},,1
+operationFlag,2,完成{{Finished}},,2
+operationFlag,3,异常{{Exception}},,3
+operationItem,DataBackup,数据备份,,4
+operationItem,Input_AcctVoucher,生成凭证表记录,,1
+operationItem,Input_Balance,生成余额表,,2
+operationItem,Input_tradinglog,生成清算汇总数据,,0
+operationItem,Input_Valuation,生成估值表,,3
+OperatorStatus,0,正常{{Normal}},,0
+OperatorStatus,1,销户{{Cancelled}},,1
+OperatorStatus,3,锁定{{Locked}},,3
+OPM_A,BAW,BAW,BAW模型,0
+OPM_A,BS1993,BS1993,BS1993模型,1
+OPM_A,BS2002,BS2002,BS2002模型,2
+OPM_E,BS,B-S,BS解析解模型,0
+OPM_E,CRR,CRR二叉树,CRR二叉树模型,1
+OptionCPFlag,C,认购{{Call}},,0
+OptionCPFlag,P,认沽{{Put}},,1
+OptionInOutMoneyFlag,AtMoney,价平{{ATM}},,2
+OptionInOutMoneyFlag,InMoney,价内{{ITM}},,0
+OptionInOutMoneyFlag,OutMoney,价外{{OTM}},,1
+OptionStdStrategyStatus,0,开仓中{{Opeing}},开仓中,0
+OptionStdStrategyStatus,1,开仓完成{{Open Finished}},开仓完成,1
+OptionStdStrategyStatus,2,平仓中{{Closing}},平仓中,2
+OptionStdStrategyStatus,3,部分平仓{{Partially Closed}},部分平仓,3
+OptionStdStrategyStatus,4,平仓完成{{Close Finished}},平仓完成,4
+OptionStdStrategyStatus,5,开仓失败{{Open Failed}},开仓失败,5
+OptionType,A,美式,个股期权类别,1
+optionType,C,看涨,个股期权类别,0
+OptionType,E,欧式,个股期权类别,0
+optionType,P,看跌,个股期权类别,1
+Option_F_OrderPriceType,ANY,市价,,1
+Option_F_OrderPriceType,LIMIT,限价,,0
+Option_F_OrderPriceType,SLA,市价止损,,5
+Option_F_OrderPriceType,SLS,限价止损,,3
+Option_F_OrderPriceType,SPA,市价止盈,,4
+Option_F_OrderPriceType,SPO,限价止盈,,2
+optPosFlag,0,操作员{{Operator}},,0
+optPosFlag,1,角色{{Role}},,1
+optStatus,0,正在买入{{Buying}},,0
+optStatus,1,买入完成,,1
+optStatus,2,正在申赎,,2
+optStatus,3,申赎完成,,3
+optStatus,4,正在卖出,,4
+optStatus,5,全部完成,,5
+optStatus,6,停止,,6
+optStatus,7,申赎失败,,7
+OptType,0,内部操作员,,1
+OptType,1,机构操作员,,2
+OrderFlag,D,撤单{{Cancel}},,1
+OrderFlag,N,委托,,0
+OrderFlag,R,修改{{Modify}},,2
+OrderKind,0,普通,委托,0
+OrderKind,1,批量,委托,1
+OrderKind,2,申赎,委托,2
+OrderMode,0,简单下单{{Simple Order}},简单下单,0
+OrderMode,1,闪电(一般下单),闪电下单(一般下单),1
+OrderMode,10,ETF申赎,ETF申购赎回,10
+OrderMode,101,期权指令,期权指令,101
+OrderMode,102,锁定解锁,锁定解锁,102
+OrderMode,103,行权指令,行权指令,103
+OrderMode,110,盘后指令,盘后指令,110
+OrderMode,12,ETF篮子,ETF篮子委托,12
+OrderMode,120,FIX指令,手机指令,120
+OrderMode,13,ETF T+0套利,ETF T+0套利,13
+OrderMode,14,期现套利,期现套利,14
+OrderMode,15,价差套利,价差套利,15
+OrderMode,16,权重委托,权重组合下单,16
+OrderMode,17,场内基金,场内基金操作,17
+OrderMode,18,ETF套利交易,ETF套利交易,18
+OrderMode,19,跨期套利,跨期套利,19
+OrderMode,2,闪电(触价下单),闪电下单(触价下单),2
+OrderMode,21,融资融券,融资融券,21
+OrderMode,22,直接还款还券,信用直接还款还券,22
+OrderMode,23,担保品划拨,信用担保品划拨,23
+OrderMode,24,日内交易,日内交易,24
+OrderMode,25,文件交互,文件交互,25
+OrderMode,26,Python策略,Python策略,26
+OrderMode,27,ETF套利交易(新),ETF套利交易(新),27
+OrderMode,3,条件下单{{Conditional Order}},条件下单,3
+OrderMode,30,预埋单委托,预埋单委托,30
+OrderMode,301,现货指令{{}},现货指令,301
+OrderMode,302,组合指令{{Portfolion Instruction}},组合指令,302
+OrderMode,303,港股通指令{{HK Stock Connection Instruction}},港股通指令,303
+OrderMode,305,期货指令{{}},期货指令,305
+OrderMode,306,期权指令,期权指令,306
+OrderMode,31,强平,强平委托,31
+OrderMode,310,两融指令,两融指令,310
+OrderMode,311,两融组合指令,两融组合指令,311
+OrderMode,315,网上申购指令,网上申购指令,315
+OrderMode,316,ETF申赎指令,ETF申赎指令,316
+OrderMode,317,场内开基指令,场内开基指令,317
+OrderMode,318,分拆合并指令,分拆合并指令,318
+OrderMode,32,闪电(移动停损),闪电下单(移动停损),32
+OrderMode,325,大宗交易指令,大宗交易指令,325
+OrderMode,39,组合拆分合并,组合拆分合并委托,39
+OrderMode,4,二择一下单,二择一下单,4
+OrderMode,40,转备兑,转备兑委托,40
+OrderMode,50,多账号交易,多账号交易,50
+OrderMode,6,组合交易,组合交易,6
+OrderMode,60,指令下单,指令下单,60
+OrderMode,61,组合(按执行),组合策略(按执行),61
+OrderMode,62,组合(按组合),组合策略(按策略),62
+OrderMode,7,快速键下单{{Hot Key Order}},快速键下单,7
+OrderMode,71,盘后交易,盘后交易,71
+OrderMode,75,过券交易,过券交易,75
+OrderMode,8,一篮子委托{{Basket Ordey}},一篮子委托,8
+OrderMode,81,现货指令,个股指令,81
+OrderMode,82,篮子指令,篮子指令,82
+OrderMode,83,期货指令,期货指令,83
+OrderMode,85,信用指令,信用指令,85
+OrderMode,86,直接还款还券,直接还款,86
+OrderMode,87,担保品划拔,担保品划拔,87
+OrderMode,89,手机指令,手机指令,89
+OrderMode,9,基金场内申赎,基金场内申赎,9
+OrderMode,91,质押申转,质押申转,91
+OrderMode,92,债券回购,债券回购,92
+OrderMode,93,ETF申赎,ETF申赎,93
+OrderMode,94,基金申赎,基金申赎,94
+OrderMode,95,分拆合并,分拆合并,95
+OrderMode,96,转股回售,转股回售,96
+OrderMode_Memu,1,81,现货指令,1
+OrderMode_Memu,10,94,基金申赎,10
+OrderMode_Memu,11,95,分拆合并,11
+OrderMode_Memu,12,96,转股回售,12
+OrderMode_Memu,15,101,期权指令,15
+OrderMode_Memu,16,102,锁定解锁,16
+OrderMode_Memu,17,103,行权指令,17
+OrderMode_Memu,18,110,盘后指令,18
+OrderMode_Memu,19,105,FIX指令,19
+OrderMode_Memu,2,82,篮子指令,2
+OrderMode_Memu,3,83,期货指令,3
+OrderMode_Memu,4,85,信用指令,4
+OrderMode_Memu,7,91,质押申转,7
+OrderMode_Memu,8,92,债券回购,8
+OrderMode_Memu,9,93,ETF申赎,9
+orderNumFlag,0,按分笔计算,分笔成交场景下，逐笔计算费用，逐笔核算最低最高费用,0
+orderNumFlag,1,按合同号汇总计算1,分笔成交场景下，按合同号汇总计算后核算最低最高费用,1
+orderNumFlag,2,按合同号汇总计算2,分笔成交场景下，逐笔计算费用，加和后核算最低最高费用,2
+OrderPriceType,D,F_OrderPriceType_D,大连商品,1
+OrderPriceType,F,F_OrderPriceType_F,股指期货,0
+OrderPriceType,S,F_OrderPriceType_S,上海商品,3
+OrderPriceType,Z,F_OrderPriceType_Z,郑州商品,2
+orderPutMode,0,人工{{Manual}},02100322,0
+orderPutMode,1,自动{{Auto}},02100322,1
+orderPutMode,2,未处理{{Unprocess}},02100322,2
+orderPutMode,3,ALGO,02100322,3
+OrderQtySumFlag,1,当日合计,,1
+OrderQtySumFlag,2,单笔委托,,2
+OrderQtySumFlag,3,单个指令,,3
+OrderStatus,Cancelled,撤单完成,"撤单完成,没有成交",3
+OrderStatus,Expired,未成交，已过交易时间,全部未成交，并且交易时间已经过了交易时间,5
+OrderStatus,Force_Cancelled,强制撤单{{Force Cancelled}},强制撤单,4
+OrderStatus,Fully_Filled,全部成交{{All Filled}},全部成交,1
+OrderStatus,Partially_Cancelled,部撤完成,部分成交，并且撤单完成,7
+OrderStatus,Partially_Expired,部分成交，已过交易时间,部分成交，交易时间已经过了,8
+OrderStatus,Partially_Filled,部分成交,部分成交,11
+OrderStatus,Partially_Pending_Cancel,部成待撤,部分成交 ，等待撤单中,6
+OrderStatus,Partially_Replaced,部分替代,部分替代,13
+OrderStatus,Pending_Accept,等待接受,等待接受,14
+OrderStatus,Pending_Cancel,已报撤单,已经下撤单委托，等待交易所确认,2
+OrderStatus,Pending_Dealing,已报委托,新的委托（已经发送给交易所），等待交易所成交,0
+OrderStatus,Pending_Replace,等待修改,等待修改,12
+OrderStatus,Pending_Settlement,未结算,未结算（OTC基金）,16
+OrderStatus,Registered,未报,CTS已经接受，但是未发送给交易所,10
+OrderStatus,Rejected,拒绝{{Rejected}},拒绝,9
+OrderStatus,Replaced,修改完成,修改完成,15
+OrderStatus,Settled,已结算,已结算（OTC基金）,17
+orderSumFlag,0,替换{{Substitution}},,0
+orderSumFlag,1,累加{{Accumulation}},,1
+OrderType,0B,买入开仓{{Buy Open}},,1
+OrderType,0S,卖出开仓{{Sell Open}},,3
+OrderType,1B,买入平仓{{Buy Close}},,2
+OrderType,1S,卖出平仓{{Sell Close}},,4
+OrderType,2B,买入平今{{Buy Close Today}},,2
+OrderType,2S,卖出平今{{Sell Close Today}},,2
+OrderType,3B,基金申购{{Fund Subscription}},,5
+OrderType,3S,基金赎回{{Fund Redemption}},,6
+OrderType,4B,配股{{Right Issue}},,7
+OrderType,5B,买入平昨{{Buy Close Yesterday}},,2
+OrderType,5S,卖出平昨{{Sell Close Yesterday}},,2
+OrderType,6B,普通买入{{Normal Buy}},,1
+OrderType,6S,普通卖出{{Normal Sell}},,4
+OrderType,7B,质押出库{{Entry of Pledged Bond}},,8
+OrderType,7S,质押入库{{Exit of Pledge Bond}},,9
+OrderType,8B,正回购,,8
+OrderType,8S,逆回购,,9
+OrderType,9B,融资买入{{Margin Buy}},,10
+OrderType,9S,融券卖出{{Short Sell}},,11
+OrderType,AB,买券还券{{Buy Cover}},,16
+OrderType,AS,卖券还款{{Sell Cover}},,17
+OrderType,B0,过券买入{{Appoint Buy}},,1
+OrderType,B1,过券卖出{{Appoint Selling}},,4
+OrderType,B2,过券还券{{Appoint Repay}},,5
+OrderType,CB,担保品划入{{Transfer In Collateral}},,18
+OrderType,CD0,申请组合{{Application Portfolio}},,67
+OrderType,CD1,申请拆分{{Apply For Split}},,68
+OrderType,CMB,组合指令{{Combined Instruction}},,69
+OrderType,CS,担保品划出{{Transfer Out Collateral}},,19
+OrderType,DS,转股,,28
+OrderType,ES,回售{{Buyback}},,29
+OrderType,ESB,回售撤消{{Cancel Buyback}},,29
+OrderType,KB,ETF申购{{ETF Creation}},,12
+OrderType,KS,ETF赎回{{ETF Redemption}},,13
+OrderType,LFM,基金合并{{Fund Merge}},,21
+OrderType,LFP,基金分拆{{Fund Split}},,22
+OrderType,LRB,现券还券{{Return Borrowed Securities}},,20
+OrderType,LRS,直接还款,,27
+OrderType,OCE,合并行权{{Merger Exercise}},,66
+OrderType,OTE,期权行权{{Option Exercise}},,25
+OrderType,OTF,标的锁定{{Underlying Lock}},,24
+OrderType,OTU,标的解锁{{Underlying Unlock}},,23
+OrderType,TB,交易投票{{Trading Vote}},,26
+OrderType,WB,场外ETF申购{{ETF OTC Creation}},,14
+OrderType,WS,场外ETF赎回{{ETF OTC Redemption}},,15
+OrderTypeDetailFlag,00,普通买卖{{Normal Trading}},,10
+OrderTypeDetailFlag,01,债券回购{{Bond Repo}},,11
+OrderTypeDetailFlag,02,债券质押申转{{Pledge}},,12
+OrderTypeDetailFlag,03,ETF申赎{{ETF Creation & Redemption}},,13
+OrderTypeDetailFlag,04,基金申赎{{Fund Subscription & Redemption}},,14
+OrderTypeDetailFlag,05,配股{{Right Issues}},,15
+OrderTypeDetailFlag,06,基金分拆{{Fund Split}},,16
+OrderTypeDetailFlag,07,基金合并{{Fund Merge}},,17
+OrderTypeDetailFlag,08,交易投票{{Trading Vote}},,18
+OrderTypeDetailFlag,09,转股{{Converible Bond Conversion}},,9
+OrderTypeDetailFlag,0A,回售{{Buyback}},,10
+OrderTypeDetailFlag,0B,回售撤消{{Cancel Buyback}},,11
+OrderTypeDetailFlag,10,普通买卖{{Normal Trading}},,0
+OrderTypeDetailFlag,11,融资买入{{Margin Buy}},,1
+OrderTypeDetailFlag,12,融券卖出{{Short Selling}},,2
+OrderTypeDetailFlag,13,买券还券{{Buy Cover}},,3
+OrderTypeDetailFlag,14,卖券还款{{Sell Cover}},,4
+OrderTypeDetailFlag,15,直接还券{{Direct Return Borrowed Securities}},,5
+OrderTypeDetailFlag,16,担保品划入{{Transfer In Collateral}},,6
+OrderTypeDetailFlag,17,担保品划出{{Transfer Out Collateral}},,7
+OrderTypeDetailFlag,18,直接还款{{Direct Refund}},,18
+OrderTypeDetailFlag,20,期权委托{{Option Order}},,20
+OrderTypeDetailFlag,21,标的锁定{{Underlying Lock}},,21
+OrderTypeDetailFlag,22,标的解锁{{Underlying Unlock}},,22
+OrderTypeDetailFlag,23,行权{{Option Exercise}},,23
+OrderTypeDetailFlag,26,持仓合并,,26
+OrderTypeDetailFlag,27,持仓拆分,,27
+OrderTypeDetailFlag,28,行权合并,,28
+OrderTypeDetailFlag,29,组合保证金合并,,29
+OrderTypeDetailFlag,30,定价申报{{Declaration of Intent}},,30
+OrderTypeDetailFlag,31,限价申报{{Declaration of Limit Price}},,31
+OrderTypeDetailFlag,32,成交确认,,32
+OrderTypeDetailFlag,33,互报成交,,33
+OrderTypeDetailFlag,70,盘后定价{{After Hour Fixed Price}},,70
+OrderTypeDetailFlag,B0,过券买入{{Appoint Buy}},,0
+OrderTypeDetailFlag,B1,过券卖出{{Appoint Selling}},,1
+orderTypeFlag,0,普通交易{{Normal Trading}},,0
+orderTypeFlag,1,融资融券{{Margin Trading}},,1
+orderTypeFlag,2,期权交易{{Option Trading}},,2
+orderTypeFlag,3,股转系统{{New Third Board}},,3
+orderTypeFlag,5,大宗交易{{Block Trading}},,5
+orderTypeFlag,7,盘后定价{{After Hour Fixed Price Trading}},,7
+OrderTypeFlag,B,过券交易,,11
+orgType,1,国家单位,,1
+orgType,10,中央国有企业,,10
+orgType,11,国有企业,,11
+orgType,12,地方国有企业,,12
+orgType,13,其他外资企业,,13
+orgType,14,其他公司,,14
+orgType,15,其他证券品种,,15
+orgType,16,公众企业,,16
+orgType,2,国有独资,,2
+orgType,3,国有控股,,3
+orgType,4,中外合资,,4
+orgType,5,外资独资,,5
+orgType,6,民营,,6
+orgType,7,集体企业,,7
+orgType,8,自然人,,8
+orgType,9,其他,,9
+OTCFund,Equity_LOF,科创板LOF,0,21
+OutCashType,CKYW,存款业务,,0
+OutCashType,QKYW,取款业务,,1
+OutCashType,ZFGLF,付管理费,,2
+OutCashType,ZFTGF,付托管理费,,3
+OutCashType,ZFTZGWF,付投资顾问费,,5
+OutCashType,ZFWBF,付外包费,,4
+OutCashType,ZFXSFWF,付销售服务费,,6
+O_TradeStatus,A,新挂,,0
+O_TradeStatus,D,当日摘牌,,2
+O_TradeStatus,E,存续期,,1
+O_TradingPhaseStatus,A,盘后交易,(深圳),10
+O_TradingPhaseStatus,B,休市,,3
+O_TradingPhaseStatus,C,集合竞价,,1
+O_TradingPhaseStatus,E,闭市,,5
+O_TradingPhaseStatus,H,临时停牌,临时停牌(深圳),9
+O_TradingPhaseStatus,O,集合竞价,开盘集合竞价(深圳),8
+O_TradingPhaseStatus,P,临时停牌,临时停牌(上海),7
+O_TradingPhaseStatus,S,开市前{{Pre-Open}},,0
+O_TradingPhaseStatus,T,连续交易,,2
+O_TradingPhaseStatus,V,波动性中断,,6
+ParaType,1,质押比率,,1
+ParaType,2,回购天数,,2
+pathFlag,0,交易{{Trading}},,0
+pathFlag,1,清算{{Clearing}},,1
+pathFlag,2,登记公司{{Clearing & Settlement Company}},,2
+PayInterestType,0,一次性{{One Time}},,0
+PayInterestType,1,月{{Month}},,1
+PayInterestType,2,季{{Quarter}},,2
+PayInterestType,3,半年{{Half Year}},,3
+PayInterestType,4,年{{Year}},,4
+payOffGrade,1,普通债权,清偿等级,0
+payOffGrade,2,次级债权,清偿等级,1
+payOffGrade,3,二级资本工具,清偿等级,2
+payOffGrade,4,混合资本债权,清偿等级,3
+payOffGrade,5,其他一级资本工具,清偿等级,4
+PGRightsType,0,体现在权益代码,,0
+PGRightsType,1,体现在标的代码,,1
+platformID,00,竞价平台,业务类型,0
+platformID,06,综合业务,业务类型,1
+platformID,07,衍生品竞价平台,业务类型,2
+platformID,08,非交易平台,业务类型,3
+platformID,09,国际市场互联平台,业务类型,4
+platformID,12,固定收益平台,业务类型,5
+platformID,13,新债平台,业务类型,6
+PlatformState,Close,关闭{{Close}},,4
+PlatformState,Halt,暂停开放{{Halt}},,3
+PlatformState,Open,开放{{Open}},,2
+PlatformState,OpenUpComing,即将开放{{Open Soon}},,1
+PlatformState,PreOpen,未开放{{Not Open}},,0
+PortfolioStatus,0,正常{{Normal}},,0
+PortfolioStatus,3,销户{{Cancelled}},,3
+PortfolioStatus,4,冻结{{Frozen}},,4
+PortfolioType,0,普通帐户{{Ordinary Account}},,0
+PortfolioType,2,T0约券帐户{{Appoint Account}},,2
+PreOrderStatus,0,待发送{{To be Sent}},待发送,0
+PreOrderStatus,1,已撤销{{Cancelled}},已撤销,1
+PreOrderStatus,2,发送完成{{Sent}},发送完成,2
+PreOrderStatus,3,发送失败{{Send Failed}},发送失败,3
+PreOrderStatus,4,发送中{{Sending}},发送中,4
+priceMode,0,固定,InstructDetail,0
+priceMode,1,限价{{Limit Price}},InstructDetail,1
+priceMode,3,不限价,InstructDetail,3
+priceMode,4,均价,InstructDetail,4
+priceMode,6,量比,InstructDetail,6
+priceMode,7,均价+量比,InstructDetail,7
+priceModeIntell,0,固定,IntellgentOrder,0
+priceModeIntell,1,限价{{Limit Price}},IntellgentOrder,1
+priceModeIntell,2,盘口价,IntellgentOrder,2
+PriceStrategy,AT,自动{{Auto}},自动,0
+PriceStrategy,B1,买①,市价委托,5
+PriceStrategy,B2,买②,市价委托,6
+PriceStrategy,B3,买③,市价委托,7
+PriceStrategy,B4,买④,市价委托,8
+PriceStrategy,B5,买⑤,市价委托,9
+PriceStrategy,GD,固定,固定委托,16
+PriceStrategy,NP,最新,市价委托,4
+PriceStrategy,OP,对手,市价委托,15
+PriceStrategy,PC,昨收,市价委托,3
+PriceStrategy,S1,卖①,市价委托,10
+PriceStrategy,S2,卖②,市价委托,11
+PriceStrategy,S3,卖③,市价委托,12
+PriceStrategy,S4,卖④,市价委托,13
+PriceStrategy,S5,卖⑤,市价委托,14
+PriceStrategy,ST,涨停,市价委托,1
+PriceStrategy,ZT,跌停,市价委托,2
+prodAcctType,0,现货{{Spot}},,0
+prodAcctType,1,期货{{Futures}},,1
+prodAcctType,2,个股期权{{Stock Option}},,2
+prodAcctType,3,信用帐户,,3
+ProductGroupType,Credit,两融产品组{{Margin Trading Product Group}},两融产品组,13
+ProductGroupType,FOF,FOF产品{{FOF Product}},FOF产品,3
+ProductGroupType,Future,期货产品组{{Futures Product Group}},期货产品组,11
+ProductGroupType,FutureOption,期货/期权产品组,期货/期权产品组,15
+ProductGroupType,Option,期权产品组{{Option Product Group}},期权产品组,12
+ProductGroupType,Query,查询产品组{{Query Product Group}},查询产品组,0
+ProductGroupType,Risk,风控产品组{{Risk Control Product Group}},风控产品组,1
+ProductGroupType,Stock,现货产品组{{Stock Product Group}},现货产品组,10
+ProductGroupType,StockCredit,现货/两融产品组,现货/两融产品组,14
+ProductGroupType,Trade,交易产品组{{Trade Product Group}},交易产品组,2
+productStatus,1,成立{{Estiblish}},,0
+productStatus,2,上市{{Go Publish}},,1
+productStatus,3,建仓{{Open Positions}},,2
+productStatus,4,平仓{{Close Positions}},,3
+productStatus,5,注销{{Cancel}},,4
+productStatus,6,冻结{{Freeze}},,5
+productStatus,7,强平{{Forced Liquid}},,6
+productType,1,证券投资基金,,1
+productType,10,银行理财,,10
+productType,11,私募股权投资基金,,11
+productType,12,私募证券投资基金,,12
+productType,2,企业年金基金,,2
+productType,3,社保保险基金,,3
+productType,4,职业年金基金,,4
+productType,5,单一信托计划,,5
+productType,6,集合信托计划,,6
+productType,7,集合理财,,7
+productType,8,专户理财,,8
+productType,9,定向理财,,9
+purchaseFlag,0,普通交易,,0
+purchaseFlag,1,新股申购{{IPO Subscription}},,1
+purchaseFlag,2,按值配售,,2
+purchaseFlag,3,新股还款,,3
+purchaseFlag,4,新股中签,,4
+purchaseFlag,5,ETF申购/赎回,,5
+purchaseFlag,6,债转股,,6
+purchaseFlag,7,购回数据,,7
+purchaseFlag,8,转托管,,8
+purchaseFlag,9,期货交易,,9
+QtyStrategy,0,篮子,组合,0
+QtyStrategy,1,补足,组合,1
+QtyStrategy,2,持仓,组合,2
+QtyStrategy,3,零股,组合,3
+queryType,0,明细,成交汇总,0
+queryType,1,按投资组合汇总,按投资组合汇总,1
+queryType,2,按产品汇总{{By Product}},按产品汇总,2
+queryType,3,按合同号汇总,按合同号汇总,3
+queryType,4,按价位汇总{{By Price Levels}},按价位汇总,4
+quotain_buyPermitFlag,1,可买入及卖出,,0
+quotain_buyPermitFlag,2,只可卖出（包括已暂停买入）,,1
+quotain_buyPermitFlag,3,仅可买（已暂停卖出）,,2
+quotain_buyPermitFlag,4,不可买卖,,3
+quotain_qualificationClass,1,包括普通投资者、专业投资者在内的所有投资者,,0
+quotain_qualificationClass,2,仅专业投资者,,1
+quotain_qualificationClass,3,仅专业投资者中的机构投资者,,2
+quotain_securitySubType,ASSET_BOND,资产证券化债,,0
+quotain_securitySubType,BOND_ETF,债券ETF,,11
+quotain_securitySubType,CONV_BOND,可转债,,1
+quotain_securitySubType,CORP_BOND,公司债,,2
+quotain_securitySubType,CURRENCY_ETF,货币ETF,,12
+quotain_securitySubType,EXCHANGEABLE_BOND,可交换债,,3
+quotain_securitySubType,E_BOND,企业债券,,4
+quotain_securitySubType,GOLD_ETF,黄金ETF,,13
+quotain_securitySubType,GOV_BOND,地方政府债,,5
+quotain_securitySubType,INNOVATION_STOCK,创新型股票,,17
+quotain_securitySubType,JUNIOR_BOND,次级债,,6
+quotain_securitySubType,LOF_FUND,"LOF基金""",,18
+quotain_securitySubType,NORMAL_ETF,普通ETF,,14
+quotain_securitySubType,OTHER_BOND,其他债券,,7
+quotain_securitySubType,PRIVATE_BOND,私募债,,8
+quotain_securitySubType,SPILT_BOND,分离式可转债,,9
+quotain_securitySubType,T_BOND,国债：,,10
+quotain_securitySubType,X_A_MARKET_ETF,跨市ETF,,15
+quotain_securitySubType,X_MARKET_ETF,跨境ETFCDR_STOCK,,16
+quotain_securityType,A0,股票-Equity,,0
+quotain_securityType,A1,债券Bond,,1
+quotain_securityType,A2,投资基金Fund,,2
+quotain_securityType,A3,场内开放基金OTCFund,,3
+quotain_securityType,A4,ETF基金ETF,,4
+quotain_securityType,A5,权证Warrant,,5
+quotain_securityType,A6,质押式回购Repo,,6
+quotain_securityType,A8,指数Index,,7
+quotain_securityType,C0,创业板StartUpBoard,,8
+quotain_securityType,C1,标准券StdBond,,9
+quotain_securityType,D0,投票EquityVote,,10
+quotain_securityType,D1,报价回购Repo,,11
+quotain_securityType,D4,B转H股HGHQ,,12
+quotain_securityType,D5,优先股Equity,,13
+quotain_securityType,D6,协议回购AgreementRepo,,14
+quotain_securityType,D7,三方回购TripartiteRepo,,15
+quotain_securityType,E1,沪伦通CDRSHLuTongCDR,,16
+quotain_securityType,E2,CDR,,17
+quotain_securityType,E3,科创板Technology,,18
+quotain_securityType,G1,信用保护合约,,19
+quotain_stocktradeStatus,A,合约调整,,7
+quotain_stocktradeStatus,B,特定债券转让,,15
+quotain_stocktradeStatus,C,上市初期,,16
+quotain_stocktradeStatus,D,新增股票挂牌转让,,5
+quotain_stocktradeStatus,E,退市股票,,6
+quotain_stocktradeStatus,F,增发股份上市/新三板中的申购,,12
+quotain_stocktradeStatus,G,退市整理期首日,,17
+quotain_stocktradeStatus,H,停牌,,10
+quotain_stocktradeStatus,I,实施双转单调整/新三板中的询价,,8
+quotain_stocktradeStatus,N,非首日上市,,0
+quotain_stocktradeStatus,O,除权,,11
+quotain_stocktradeStatus,P,除息,,9
+quotain_stocktradeStatus,Q,首日上市,,3
+quotain_stocktradeStatus,S,未完成股改,,13
+quotain_stocktradeStatus,T,ST,,1
+quotain_stocktradeStatus,U,*ST,,2
+quotain_stocktradeStatus,V,网络投票,,14
+quotain_stocktradeStatus,W,恢复上市首日,,4
+quotain_suspensionFlag,1,停牌,,0
+quotain_suspensionFlag,2,非停牌,,1
+quotain_tradeStatus,1,当日上市,,0
+quotain_tradeStatus,2,当时正常交易，且有交易,,1
+quotain_tradeStatus,3,当日正常交易，但实际未有交易,,2
+quotain_tradeStatus,4,当日停牌,,3
+quotain_tradeStatus,5,暂停上市阶段,,4
+quotain_tradeStatus,6,当日退市,,5
+quotain_tradetype,A0,正常买卖,,0
+quotain_tradetype,A1,新股认购,,1
+quotain_tradetype,A2,新股配号,,2
+quotain_tradetype,A3,新股中签,,3
+quotain_tradetype,A4,申购款,,4
+quotain_tradetype,A5,配股,,5
+quotain_tradetype,A8,增发新股,,6
+quotain_tradetype,A9,非交易,,7
+quotain_tradetype,B3,转股,,8
+quotain_tradetype,B4,回售,,9
+quotain_tradetype,B7,申购赎回,,10
+quotain_tradetype,B8,权证行权,,11
+quotain_tradetype,B9,质押申转,,12
+quotain_tradetype,C1,资金划拨,,13
+quotain_tradetype,C2,国债预发行,,14
+quotain_tradetype,C3,要约收购,,15
+quotain_tradetype,D1,国债预发行,,16
+quotain_tradetype,D2,协议转让,,17
+quotationQtyB,B1,买盘一,,1
+quotationQtyB,B2,买盘二,,2
+quotationQtyB,B3,买盘三,,3
+quotationQtyB,B4,买盘四,,4
+quotationQtyB,B5,买盘五,,5
+quotationQtyS,S1,卖盘一,,1
+quotationQtyS,S2,卖盘二,,2
+quotationQtyS,S3,卖盘三,,3
+quotationQtyS,S4,卖盘四,,4
+quotationQtyS,S5,卖盘五,,5
+QuotationSource,Q01,现货五档{{Spot Price (5 Levels)}},,0
+QuotationSource,Q02,现货十档{{Spot Price (10 Levels)}},,1
+QuotationSource,Q0H,港股通{{HK Stock Connect}},,2
+QuotationSource,QCI,组合行情{{Portfolio Market Data}},,3
+QuotationSource,QDF,大连期货{{DCE Futures}},,4
+QuotationSource,QED,除权除息历史数据{{Ex-Right Ex-Dividend Info}},,10
+QuotationSource,QEF,ETF清单服务{{ETF PCF Service}},,9
+QuotationSource,QFF,金融期货{{CFFEX Futures}},,5
+QuotationSource,QNF,能源期货{{INE Futures}},,8
+QuotationSource,QO4,上海商品期权{{SHFE Commodity Option}},,18
+QuotationSource,QOD,大连商品期权{{DCE Commodity Option}},,16
+QuotationSource,QOF,期指期权{{Index Opition}},,14
+QuotationSource,QON,能源期权{{INE Option}},,19
+QuotationSource,QOS,个股期权{{Stock Option}},,15
+QuotationSource,QOZ,郑州商品期权{{CZCE Commodity Option}},,17
+QuotationSource,QSF,上海期货{{SHFE Futures}},,6
+QuotationSource,QZF,郑州期货{{CZCE Futures}},,7
+quoteType,1,净价,报价方式,0
+quoteType,2,全价,报价方式,1
+reckoningBackupFlag,0,未备份{{Not Backed Up}},,0
+reckoningBackupFlag,1,已备份{{Backed Up}},,1
+ReckoningFlag,1,直报清算,,0
+ReckoningFlag,2,分仓清算,,1
+ReckoningStatus,0,未开始{{Unstart}},,0
+ReckoningStatus,1,清算中{{In Clearing Process}},,1
+ReckoningStatus,11,请求第三方系统异常{{Request Third System Exception}},,11
+ReckoningStatus,12,密码错误{{Wrong Password}},,12
+ReckoningStatus,13,密码错误已修改{{The password error has been modified}},,13
+ReckoningStatus,2,清算完成{{Clearing Completed}},,2
+ReckoningStatus,3,系统级异常{{System Exception}},,3
+ReckoningStatus,4,业务级异常{{Business Exception}},,4
+ReckoningStatus,5,文件未转入{{Files Not Transferred}},,5
+ReckoningStatus,6,文件已转入{{Files Transferred successfully}},,6
+ReckoningStatus,7,新增账号{{New Account}},,7
+refreshType,0,操作员{{Operator}},操作员,0
+refreshType,1,交易日{{Trading Days}},交易日,1
+refreshType,10,角色信息,角色信息,10
+refreshType,100,工作组信息{{Work Group Info}},工作组信息,100
+refreshType,101,流程审批信息,流程审批信息,101
+refreshType,103,自动执行信息{{Auto}},自动执行信息,103
+refreshType,11,产品操作员信息,产品操作员信息,11
+refreshType,12,系统菜单,系统菜单,12
+refreshType,13,证券信息,证券信息,13
+refreshType,14,系统配置信息,系统配置信息,14
+refreshType,15,证券类型,证券类型,15
+refreshType,156,刷新资金表,刷新资金表,156
+refreshType,157,刷新持仓表,刷新持仓表,157
+refreshType,158,测试专用,测试专用,158
+refreshType,159,对冲账户对应关系,对冲账户对应关系,159
+refreshType,16,交易类型,交易类型,16
+refreshType,160,刷新约券持仓表,刷新约券持仓表,160
+refreshType,161,可出借券单信息,可出借券单信息,161
+refreshType,162,可出借券单客户利率加点,可出借券单客户利率加点,162
+refreshType,163,券源管理,券源管理信息,163
+refreshType,164,借贷计划账户关系,借贷计划账户关系,164
+refreshType,17,产品资产单元,产品资产单元,17
+refreshType,170,同步FDS全量现货信息,同步FDS全量现货信息,170
+refreshType,172,分中心管理配置信息,分中心管理配置信息,172
+refreshType,18,资产单元组,资产单元组,18
+refreshType,19,交易股东设置,交易股东设置,19
+refreshType,2,交易市场{{Exchanges}},交易市场,2
+refreshType,21,股票池设置,股票池设置,21
+refreshType,22,股东设置{{Shareholder Settings}},股东设置,22
+refreshType,23,营业部,营业部设置,23
+refreshType,25,第三方系统参数,第三方系统参数,25
+refreshType,26,柜员风控权限设置,柜员风控权限设置,26
+refreshType,27,风控监控设置,风控规监控设置,27
+refreshType,28,风控条件设置,风控条件设置,28
+refreshType,29,风控点个性化设置,风控点个性化设置,29
+refreshType,3,交易平台管理,交易平台管理,3
+refreshType,30,投资组合设置,投资组合设置,30
+refreshType,31,证券分类设置{{Security Classification Settings}},证券分类设置,31
+refreshType,32,证券区间设置,证券区间设置,32
+refreshType,33,公共参数{{Common Parameters}},公共参数,33
+refreshType,39,自定义算法,自定义算法,39
+refreshType,4,币种信息,币种信息,4
+refreshType,40,自定义策略,自定义策略,40
+refreshType,5,汇率设置,汇率设置,5
+refreshType,50,机构信息,机构信息,50
+refreshType,51,跨品种的合约品种设置,跨品种的合约品种设置,51
+refreshType,52,股票池外其他证券交易限制设置,股票池外其他证券交易限制设置,52
+refreshType,56,风控指标基本设置,风控指标基本设置,56
+refreshType,57,期货产品代码,期货产品代码,57
+refreshType,58,ALGO配置信息,ALGO配置信息,58
+refreshType,59,新股信息,新股信息,59
+refreshType,6,利率信息,利率信息,6
+refreshType,61,业务类型对应关系,业务类型对应关系,61
+refreshType,69,基金拆分合并参数,基金拆分合并参数,69
+refreshType,7,席位信息,席位信息,7
+refreshType,8,费用信息,费用信息,8
+refreshType,9,保证金信息,费用信息,9
+regionLevel,0,省,,1
+regionLevel,1,市,,2
+regionLevel,2,县,,3
+regPermitList,0,禁止买入,registration,0
+regPermitList,1,禁止卖出,registration,1
+regPermitList,2,禁止转托管,registration,2
+regPermitList,3,禁止撤消指定,registration,3
+regPermitList,4,禁止回购融资,registration,4
+regPermitList,5,禁止买入退市整理期股票,registration,5
+regPermitList,6,禁止买入风险警示股票,registration,6
+regPermitList,7,禁止买入机构投资者适当性管理债券,registration,7
+regPermitList,8,禁止买入投资者适当性管理债券,registration,8
+regPermitList,9,禁止参与优先股交易,registration,9
+regPermitList,A,禁止协议回购融资融入,registration,10
+regPermitList,B,禁止协议回购融资融出,registration,11
+regPermitList,D,禁止ETF申购赎回,registration,13
+regPermitList,E,禁止买入子基金和分拆母基金,registration,14
+regPermitList,F,禁止交易创业板注册制股票,registration,15
+regPermitList,G,禁止交易创新企业股票或存托凭证,registration,16
+regPermitList,H,禁止交易可转换公司债券,registration,17
+regPermitList,I,禁止交易基础层证券,registration,18
+regPermitList,J,禁止交易创新层证券,registration,19
+regPermitList,K,禁止交易精选层证券,registration,20
+regType,0,普通帐户{{Ordinary Account}},,0
+regType,4,虚拟帐户{{Virtual Account}},,4
+ReplaceFlag,0,禁止,BasketList,0
+ReplaceFlag,1,允许,BasketList,1
+ReplaceFlag,2,必须,BasketList,2
+ReplaceFlag,3,跨市替代,BasketList,3
+ReplaceFlag,4,跨市必须,BasketList,4
+ReplaceFlag,5,跨境退补替代,BasketList,5
+ReplaceFlag,6,跨境必须替代,BasketList,6
+ReplaceFlag,7,港市退补现金替代,BasketList,7
+ReplaceFlag,8,港市必须现金替代,BasketList,8
+RepoFlag,1,正回购{{Repo}},,1
+RepoFlag,2,逆回购{{Reverse Repo}},,2
+RepoFlag,3,正回购-逆回购{{Repo - Reverse Repo}},,3
+repoInterFlag,0,算头,,0
+repoInterFlag,1,算尾,,1
+ReportType,0,ETF申赎本市现金替代{{Fund}},,0
+ReportType,1,普通交易{{Ordinary Trading}},,1
+ReportType,2,ETF申赎回报{{ETF Creation & Redemption Report}},,2
+ReportType,3,ETF基金回报{{ETF Execution Report}},,3
+ReportType,4,ETF申赎成分股回报{{ETF Creation & Redemption Component Repor}},,4
+ReportType,6,ETF申赎跨市现金替代{{Fund}},,6
+ReportType,7,ETF申赎港市现金替代{{Fund}},,7
+ReportType,8,ETF申赎非沪深港现金替代{{Fund}},,8
+returnType,1,单返,,1
+returnType,2,折价,,2
+returnType,3,不返,,3
+RightsType,CF,拆分{{Split}},,6
+RightsType,DF,兑付,,5
+RightsType,DX,兑息,,4
+RightsType,HL,红利{{Cash Dividend}},,0
+RightsType,PG,配股{{Right Issue}},,3
+RightsType,RGQZ,认购权证送配，,,7
+RightsType,RZQZ,认沽权证送配，,,8
+RightsType,SG,送股{{Stock Dividend}},,1
+RightsType,XJDJ,现金对价,,9
+RightsType,ZG,赠股,,2
+RiskActionType,0,委托,风控业务使用,0
+RiskActionType,1,指令 ,风控业务使用,1
+RiskCalculation,0,不计算,,0
+RiskCalculation,1,加上{{Plus}},,1
+RiskCalculation,2,减去{{Minus}},,2
+RiskClass,1,政策性,风控业务使用,1
+RiskClass,2,公司约束,风控业务使用,2
+RiskClass,3,合同性,风控业务使用,3
+RiskCompare,1,大于,,1
+RiskCompare,3,小于,,3
+RiskCompare,4,等于,,4
+RiskCompare,5,不等于,,5
+riskControlFlag,0,止损{{Stop Loss}},,0
+riskControlFlag,1,交易限制{{Trade Restrictions}},,1
+riskControlFlag,2,交易量价{{Trade Price & Quantity}},,2
+riskControlFlag,3,黑白名单{{Black & White List}},,3
+riskControlFlag,4,资产组合{{Asset Group}},,4
+riskControlFlag,5,业务合规{{Compliance}},,5
+riskControlMode,0,全局{{Global}},,0
+riskControlMode,1,产品{{Product}},,1
+riskControlMode,2,账户{{Account}},,2
+RiskCreditFlag,1,融资{{Financing}},,1
+RiskCreditFlag,2,融券{{Securities Lending}},,2
+RiskCreditFlag,3,融资+融券{{Financing + Securities Lending}},,3
+RiskExposure,1,全体有效,AllPrd,1
+RiskExposure,3,产品层,Product,3
+riskFactorType,Asset,资产类{{Asset Category}},,2
+riskFactorType,Cash,金额类{{Cash Category}},,0
+riskFactorType,Exch,市场参数{{Exchange Parameters}},,4
+riskFactorType,InCome,盈亏类{{Income Category}},,5
+riskFactorType,Marketvalue,市值类{{Market Value Category}},,3
+riskFactorType,Position,持仓类{{Position Category}},,1
+RiskFtOrderFlag,1,开仓{{Open}},,1
+RiskFtOrderFlag,2,平仓{{Close}},,2
+RiskFtOrderFlag,3,开仓-平仓,,3
+RiskFtOrderFlag,4,开仓+平仓,,4
+RiskHKstkctl,3,场内+港股,,3
+RiskIPO,1,按中签率计算,,1
+RiskIPO,2,按申购量计算,,2
+RiskIPO,3,不计算{{Do Not Calculate}},,3
+RiskLevel,1,1级,风控业务使用,1
+RiskLevel,2,2级,风控业务使用,2
+RiskLevel,3,3级,风控业务使用,3
+RiskLevel,4,4级,风控业务使用,4
+RiskLevel,5,5级,风控业务使用,5
+RiskMolecularType,1,持仓成本{{Position Cost}},,1
+RiskMolecularType,2,持仓市值{{Position Market Value}},,2
+RiskMolecularType,3,资产市值,,3
+RiskMolecularType,4,交易额度,,4
+RiskOper,1,单人员控制,,1
+RiskOper,2,多人员联合控制,,2
+RiskOper,3,单人员、多人员联合控制,,3
+RiskOrderStatus,0,成交,风控业务使用,0
+RiskOrderStatus,1,在途,风控业务使用,1
+riskParaAsset,ProductAcctNum,资产单元{{Asset Unit}},ProductAcctNum,2
+riskParaAsset,ProductNum,产品{{Product}},ProductNum,1
+riskParaDict,exchId,市场{{Exchange}},exchId,1
+riskParaDict,futureProduct,期货品种,futureProduct,5
+riskParaDict,F_hedgeFlag,套保标志{{Hedge Flag}},F_hedgeFlag,6
+riskParaDict,F_productId,期货产品{{Futures Product}},F_productId,5
+riskParaDict,stkIndustryNum,证券分类{{Securities Classification}},stkIndustryNum,4
+riskParaDict,stkType,证券类别{{Securities Type}},stkType,2
+riskParaDict,tradeType,交易类别{{Trade Type}},tradeType,3
+RiskParaRLS,1,联合风控,,1
+riskPositionFlag,1,全部持仓,ALLPosition,1
+riskPositionFlag,2,多头持仓{{Long Positions}},BuyPosition,2
+riskPositionFlag,3,空头持仓{{Short Positions}},SellPosition,3
+RiskPosMerge,1,按市场分别单独计算,,1
+RiskPosMerge,2,对所有市场汇总计算,,2
+RiskPosMerge,4,按发行人汇总计算,,4
+RiskPrice,1,昨收盘{{Previous Closing}},,1
+RiskPrice,2,最新价{{Last Price}},,2
+RiskPrice,3,涨停价{{Limit Up Price}},,3
+RiskPrice,4,跌停价{{Limit Down Price}},,4
+RiskPrice,5,结算价{{Settlement Price}},,5
+RiskPrice,6,上一笔成交价{{Last Transaction Price}},,6
+riskProductCtrl,1,产品{{Product}},ProductNum,1
+riskProductCtrl,2,资产单元{{ProductAcct}},ProductAcctNum,2
+RiskRunType,1,定时运行,,1
+RiskRunType,2,间隔固定时间,,2
+RiskRunType,3,单次执行,,3
+RiskStatus,0,停用{{Deactive}},stop,0
+RiskStatus,1,启用{{Active}},used,1
+riskStkGroupCrtl,AssetType,资产类型,AssetType,7
+riskStkGroupCrtl,Ftproduct,期货品种,Ftproduct,6
+riskStkGroupCrtl,stkPool,股票池,stkPool,3
+riskStkGroupCrtl,stkType,证券类别,stkType,1
+riskStkGroupCrtl,stockId,证券代码,stockId,5
+RiskStkRestrict,1,包含,,1
+RiskStkRestrict,2,不包含,,2
+RoleType,0,内部角色,,0
+RoleType,1,机构角色,,1
+RspMsgID,11,现货委托确认{{Spot Order Confirmed}},,0
+RspMsgID,12,现货撤单{{Spot Order Cancelled}},,1
+RspMsgID,13,现货成交{{Spot Order Filled}},,2
+RspMsgID,21,期货期权委托确认{{Futures Option Order Confirmed}},,3
+RspMsgID,22,期货期权撤单{{Futures Option Order Cancelled}},,4
+RspMsgID,23,期货期权成交{{Futures Option Order Filled}},,5
+SaveFetchFlag,0,银行转券商{{Bank to Broker}},,0
+SaveFetchFlag,1,券商转银行{{Broker to Bank}},,1
+SaveFetchFlag,2,查询银行余额{{Bank Account Balance}},,2
+SBLType,1,融券PTH,,1
+SBLType,2,过券PTH,,2
+SBL_ACTION,0,出借,出借,0
+SBL_ACTION,1,召回,召回,1
+SBL_ACTION,2,约券,约券,2
+SBL_ACTION,3,还券,还券,3
+SBL_ACTION,4,展期,展期,4
+SBL_ArriveDay,0,T+0,约定模式T+0,0
+SBL_ArriveDay,1,T+1,约定模式T+1,0
+SBL_ArriveDay,2,预约T+0,约定模式预约T+0,0
+SBL_BriefType,B,借券需求,借券需求,1
+SBL_BriefType,S,券源供给,券源供给,0
+SBL_DInterestRateType,0,普通,约券费率类型-普通,0
+SBL_DInterestRateType,1,竞价,约券费率类型-竞价,1
+SBL_DInterestRateType,9,询价,约券费率类型-询价,9
+SBL_MatchStatus,0,未匹配,券池匹配业务未匹配,0
+SBL_MatchStatus,1,匹配完成,券池匹配业务匹配完成,1
+SBL_MatchStatus,10,已了结,券池匹配业务已了结,10
+SBL_MatchStatus,11,展期中,券池匹配中的持仓展期中,11
+SBL_MatchStatus,2,召回中,券池匹配中的持仓召回中,2
+SBL_MatchStatus,3,部分召回,券池匹配中的持仓部分召回,3
+SBL_MatchStatus,4,全部召回,券池匹配中的持仓全部召回,4
+SBL_MatchStatus,5,还券中,券池匹配中的持仓还券中,5
+SBL_MatchStatus,6,部分还券,券池匹配中的持仓部分还券,6
+SBL_MatchStatus,7,全部还券,券池匹配中的持仓全部还券,7
+SBL_MatchStatus,8,已到期,券池匹配中的持仓已到期,8
+SBL_MatchStatus,9,部分匹配,券池匹配中的持仓部分匹配,9
+SBL_ProcessFlag,0,未处理,此动作未处理,0
+SBL_ProcessFlag,1,已处理,此动作已处理,1
+SBL_ProcessFlag,2,已拒绝,此动作已拒绝,2
+SBL_ProcessFlag,3,已撤销,此动作已经撤销,3
+SBL_ProcessFlag,9,已发送,此动作已经发送,9
+SBL_repayMode,1,额度优先,还券方式-额度优先,1
+SBL_repayMode,2,持仓优先,还券方式-持仓优先,2
+SBL_repayMode,3,额度还券,还券方式-额度还券,3
+SBL_repayMode,4,持仓还券,还券方式-持仓还券,4
+SBL_repayOperation,1,按标的还券,还券操作-按标的还券,1
+SBL_repayOperation,2,按合约还券,还券操作-按合约还券,2
+SBL_SecuritySource,0,自有,,0
+SBL_SecuritySource,3,中信QFII,,3
+SBL_SubActionType,0,请求,标识这是一个请求,0
+SBL_SubActionType,1,撤销,标识这是一个撤销请求,1
+SBL_SubActionType,2,确认,标识这是一个请求的应答,2
+SBL_SubActionType,3,修改,修改供给池的报价利率,3
+SBL_UndoFlag,0,有效, 动作是否失效  不失效,0
+SBL_UndoFlag,1,失效, 动作是否失效  失效,1
+securitiesCompany,397380,联储证券,券商号,0
+securitiesCompany,720100,申银万国,券商号,0
+securitiesCompany,720200,国泰君安,券商号,0
+securitiesCompany,720300,国信证券,券商号,0
+securitiesCompany,720400,大鹏证券,券商号,0
+securitiesCompany,720500,辽宁证券,券商号,0
+securitiesCompany,720600,闽发证券,券商号,0
+securitiesCompany,720700,长江证券,券商号,0
+securitiesCompany,720800,银河证券,券商号,0
+securitiesCompany,720900,渤海证券,券商号,0
+securitiesCompany,721000,海通证券,券商号,0
+securitiesCompany,721100,广发证券,券商号,0
+securitiesCompany,721200,兴业证券,券商号,0
+securitiesCompany,721300,招商证券,券商号,0
+securitiesCompany,721400,天同证券,券商号,0
+securitiesCompany,721500,光大证券,券商号,0
+securitiesCompany,721600,湘财证券,券商号,0
+securitiesCompany,721700,华泰证券,券商号,0
+securitiesCompany,721800,中信证券,券商号,0
+securitiesCompany,722100,东方证券,券商号,0
+SecurityType,CS,现货,,1
+SecurityType,FUT,期货,,2
+SecurityType,OPT,期权,,3
+sendFlag,-1,审批中{{Reviewing}},,0
+sendFlag,0,未发送{{Unsend}},,1
+sendFlag,1,已经发送,,2
+sendFlag,11,审批通过,,11
+sendFlag,12,审批不通过,,12
+sendFlag,13,审批中撤单,,13
+ServiceFeeMaxTypeFlag,0,不封顶,,0
+ServiceFeeMaxTypeFlag,1,封顶,,1
+settleInterestMode,0,T+0计息{{T+0 Interest Calculation}},,0
+settleInterestMode,1,T+1计息{{T+1 Interest Calculation}},,1
+SettleInterestType,0,余额法,,0
+SettleMode,1,日,,0
+SettleMode,2,月,,1
+SettleMode,3,季,,2
+SettleMode,4,半年,,3
+SettleMode,5,年,,4
+shSettleWay,0,否,是否非担保（上交所清算交收方式）,0
+shSettleWay,1,是,是否非担保（上交所清算交收方式）,1
+Source_stkProperty,D^D2,5,大商所^商品期权,9
+Source_stkProperty,D^F1,3,大商所^商品期货,2
+Source_stkProperty,F^D2,4,中金所^股指期权,8
+Source_stkProperty,F^F1,1,中金所^股指期货,1
+Source_stkProperty,N^D2,5,能源中心^商品期权,11
+Source_stkProperty,N^F1,3,能源中心^商品期货,4
+Source_stkProperty,S^D2,5,上期所^商品期权,10
+Source_stkProperty,S^F1,3,上期所^商品期货,3
+Source_stkProperty,X^D2,2,上海^个股期权,6
+Source_stkProperty,Y^D2,2,深圳^个股期权,7
+Source_stkProperty,Z^D2,5,郑商所^商品期权,12
+Source_stkProperty,Z^F1,3,郑商所^商品期货,5
+splitStatus,0,可分拆和合并,,0
+splitStatus,1,只可分拆(暂停合并),,1
+splitStatus,2,只可合并(暂停分拆),,2
+splitStatus,3,不可分拆与合并,,3
+Sponsor,0,券商{{Broker}},,0
+Sponsor,1,银行{{Bank}},,1
+StartUpBoard,CDR_STOCK,CDR股票,1,18
+Status,0,正常{{Normal}},,0
+Status,1,销户{{Cancelled}},,1
+Status,2,冻结{{Frozen}},,2
+Status,3,锁定{{Locked}},,3
+StatusCode,AuditError,审批中撤单/不通过,审批失败,14
+StatusCode,Auditing,审批中{{Approving}},审批中,13
+StatusCode,Cancelled,撤单完成,"撤单完成,没有成交",3
+StatusCode,Expired,未成交，已过交易时间,全部未成交，并且交易时间已经过了交易时间,5
+StatusCode,Fully_Filled,全部成交,全部成交,12
+StatusCode,Partially_Cancelled,部撤完成,部分成交，并且撤单完成,7
+StatusCode,Partially_Expired,部分成交，已过交易时间,部分成交，交易时间已经过了,8
+StatusCode,Partially_Filled,部分成交,部分成交,11
+StatusCode,Partially_Pending_Cancel,部成待撤,部分成交 ，等待撤单中,6
+StatusCode,Pending_Cancel,已报撤单,已经下撤单委托，等待交易所确认,2
+StatusCode,Pending_Dealing,已报委托,新的委托（已经发送给交易所），等待交易所成交,0
+StatusCode,Pending_Replace,修改中,修改中,15
+StatusCode,Registered,未报,CTS已经接受，但是未发送给交易所,10
+StatusCode,Rejected,拒绝,拒绝,9
+StatusCode,Replaced,修改完成,修改完成,16
+StatusCode_Query,0,所有{{All}},所有委托,0
+StatusCode_Query,1,审批中{{Approving}},审批中,1
+StatusCode_Query,2,有成交{{Partially Filled}},已成交,2
+StatusCode_Query,3,可撤单{{Cancellable}},可撤单,3
+StatusDesc,ACCEPTED,接受,接受,2
+StatusDesc,CANCELLED,已撤销,已撤销,4
+StatusDesc,PENDING,未处理,未处理,1
+StatusDesc,REJECTED,拒绝,拒绝,3
+StatusDesc,REPLACED,已修改,已修改,5
+stkAllotFlag,A,表示除权除息{{Ex-Dividend Ex-Right}},,0
+stkAllotFlag,D,表示除息{{Ex-Dividend}},,0
+stkAllotFlag,E,表示除权{{Ex-Right}},,0
+stkAllotFlag,N,正常交易{{Normal Trading}},,0
+StkClass,1,Ａ股,Ａ股,0
+StkClass,10,信用风险缓释凭证,信用风险缓释凭证,9
+StkClass,11,企债回购,企债回购,10
+StkClass,12,待发A股,待发A股,11
+StkClass,13,短期融资券,短期融资券,12
+StkClass,14,存托凭证,存托凭证,13
+StkClass,15,企业债,企业债,14
+StkClass,16,股票挂钩票据,股票挂钩票据,15
+StkClass,17,交易所买卖基金,交易所买卖基金,16
+StkClass,18,金融债,金融债,17
+StkClass,19,期货,期货,18
+StkClass,2,Ｂ股,Ｂ股,1
+StkClass,20,基金,基金,19
+StkClass,21,外汇,外汇,20
+StkClass,22,国债回购,国债回购,21
+StkClass,23,指数,指数,22
+StkClass,24,利率,利率,23
+StkClass,25,界内证,界内证,24
+StkClass,26,基差,基差,25
+StkClass,27,可转换债券,可转换债券,26
+StkClass,28,集合理财,集合理财,27
+StkClass,29,买断式回购,买断式回购,28
+StkClass,3,标准化票据,标准化票据,2
+StkClass,30,互惠基金,互惠基金,29
+StkClass,31,强积金,强积金,30
+StkClass,32,现货,现货,31
+StkClass,33,期权,期权,32
+StkClass,34,普通股,普通股,33
+StkClass,35,央行票据,央行票据,34
+StkClass,36,优先股,优先股,35
+StkClass,37,权利,权利,36
+StkClass,38,其他,其他,37
+StkClass,39,权证,权证,38
+StkClass,4,可转债,可转债,3
+StkClass,40,质押式回购,质押式回购,39
+StkClass,41,供股权,供股权,40
+StkClass,42,指数,指数,41
+StkClass,43,合订证券,合订证券,42
+StkClass,44,三板股,三板股,43
+StkClass,45,非上市交易证券,非上市交易证券,44
+StkClass,46,单位信托基金,单位信托基金,45
+StkClass,47,认股权证,认股权证,46
+StkClass,48,未上市公司,未上市公司,47
+StkClass,49,信托产品,信托产品,48
+StkClass,5,牛熊证,牛熊证,4
+StkClass,50,银行理财产品,银行理财产品,49
+StkClass,51,国债,国债,50
+StkClass,52,资产支持证券,资产支持证券,51
+StkClass,53,置换票据,置换票据,52
+StkClass,6,同业存单,同业存单,5
+StkClass,7,同业拆借,同业拆借,6
+StkClass,8,信用联结票据,信用联结票据,7
+StkClass,9,现货商品,现货商品,8
+StkInComeRate,1,产品净资产/产品份额-1,,1
+StkInComeRate,2,净资产/净投入-1,,2
+StkInComeRate,3,净资产/基准值-1,,3
+StkInComeRate,4,累计单位净值-1,,4
+StkInComeValue,1,持仓市值-持仓成本,,1
+StkInComeValue,2,净资产-净投入,,2
+StkInComeValue,3,产品净资产-产品份额,,3
+stkIndustryType,0,证监会行业分类,证券分类用,0
+stkIndustryType,1,申万行业分类,证券分类用,1
+stkIndustryType,10,股票板块分类,证券分类用,10
+stkIndustryType,2,证监会债券行业分类{{CSRC Industry Class. for Bonds}},债券分类用,2
+stkIndustryType,20,债券分类,债券子分类,20
+stkIndustryType,24,债券特殊分类{{Bond Special Classification}},债券特殊分类,24
+stkIndustryType,25,债券信用评级,债券信用评级,25
+stkIndustryType,3,申万债券行业分类{{SW Industry Class. for Bonds}},债券分类用,3
+stkIndustryType,30,基金分类,基金子分类,30
+stkIndustryType,40,交易所指数{{Exchange Indices}},交易所指数,40
+stkIndustryType,50,资产性质,证券分类用,50
+stkIndustryType,99,自定义分类,自定义分类,99
+stkIssueType,1,市值配售方式,IPO发行方式,1
+stkIssueType,2,上网定价方式,IPO发行方式,2
+stkIssueType,4,增发定价方式,IPO发行方式,4
+stkIssueType,5,增发竞价方式,IPO发行方式,5
+stkIssueType,6,LOF/ETF连续认购方式,IPO发行方式,6
+StkOrderStatus,M,可恢复熔断,,1
+StkOrderStatus,N,不可恢复熔断,,2
+StkOrderStatus,T,正常交易状态,,0
+stkPoolFlag,0,允许{{Allowed}},,0
+stkPoolFlag,1,禁止{{Forbidden}},,1
+stkProperty,0,现货{{Spot}},StkId,0
+stkProperty,1,股指期货{{Stock Index Futures}},StkId,1
+stkProperty,2,个股期权{{Stock Option}},StkId,2
+stkProperty,3,商品期货{{Commodity Futures}},StkId,3
+stkProperty,4,股指期权{{Stock Index Option}},StkId,4
+stkProperty,5,商品期权{{Commodity Option}},StkId,5
+StkTradeFlag,1,允许交易证券代码,BasketList,1
+StkTradeFlag,2,非本市场，不可交易,BasketList,2
+StkTradeFlag,3,跨市场现金替代代码,BasketList,3
+StkType,A0,股票,正常股票,0
+StkType,A1,债券{{Bond}},债券,1
+StkType,A2,投资基金{{Fund}},投资基金,2
+StkType,A3,场内开基{{Exchange Open-Ended Fund}},场内开基,3
+StkType,A4,ETF基金{{ETF}},ETF基金,4
+StkType,A5,权证{{Warrent}},权证,5
+StkType,A6,质押式回购{{Pledge Repo}},质押式回购,6
+StkType,A8,指数{{Index}},指数,7
+StkType,A9,拆借{{Repo}},拆借,8
+StkType,C0,创业板{{Growth Enterprise Market Board}},创业板,9
+StkType,C1,标准券{{Standard Bond}},标准券,10
+StkType,D0,投票{{Vote}},投票,11
+StkType,D1,报价回购{{Quote Repo}},报价回购,12
+StkType,D2,期权{{Option}},期权,13
+StkType,D5,优先股{{Preferred Stock}},优先股,14
+StkType,D7,三方回购{{Tri-Party Repo}},第三方回购,15
+StkType,E1,沪伦通CDR{{Shanghai London Stock Connect CDR}},沪伦通CDR,19
+StkType,E3,科创板{{STAR Market}},科创板,20
+StkType,F1,期货{{Futures}},期货,18
+StkType,F2,债券远期,债券远期,21
+StkType,M0,现金类资产,现金类资产,22
+StkType,N0,净值型资管产品,净值型资管产品,25
+StkType,N1,利率型资管产品,利率型资管产品,26
+StkType,R0,协议式回购{{Pledge Repo negotiated}},协议式回购,23
+StkType,U1,国债回购{{Treasury Repo}},国债回购,16
+StkType,U2,买断式回购{{Outright Repo}},买断式回购,17
+StkType2,ASSET_BOND,资产证券化债{{Asset-Backed Security}},BOND,0
+StkType2,BOND_ETF,债券ETF{{Bond ETF}},ETF,11
+StkType2,CONV_BOND,可转债{{Convertible Bond}},BOND,1
+StkType2,CORP_BOND,公司债{{Corporate Bond}},BOND,2
+StkType2,CURRENCY_ETF,货币ETF{{MMF}},ETF,12
+StkType2,EXCHANGEABLE_BOND,可交换债{{Exchangable Bond}},BOND,3
+StkType2,E_BOND,企业债券{{Corporate Bond}},BOND,4
+StkType2,GOLD_ETF,黄金ETF{{Gold ETF}},ETF,13
+StkType2,GOV_BOND,地方政府债{{Municipal Bond}},BOND,5
+StkType2,INFRAST_LOF,公募REITs基金{{REITs Fund}},Fund,17
+StkType2,JUNIOR_BOND,次级债{{Subordinate Bond}},BOND,6
+StkType2,NORMAL_ETF,普通ETF {{Ordinary ETF}},ETF,14
+StkType2,OTHER_BOND,其他债券{{Other Bond}},BOND,7
+StkType2,PRIVATE_BOND,私募债{{Private Placement Bond}},BOND,8
+StkType2,SPILT_BOND,分离式可转债{{Separable Convertible Bond}},BOND,9
+StkType2,T_BOND,国债{{Treasury}},BOND,10
+StkType2,X_A_MARKET_ETF,跨市ETF{{Cross Exchange ETF}},ETF,15
+StkType2,X_MARKET_ETF,跨境ETF{{Cross Border ETF}},ETF,16
+stkvalueType,1,按收盘价{{By Closing Price}},,0
+stkvalueType,2,按公允价{{By Fair Value}},,1
+StockSTType,N,非ST,,2
+StockSTType,T,ST,,0
+StockSTType,U,*ST,,1
+strikeStyle,A,美式行权,权证业务,0
+strikeStyle,B,百慕大行权,权证业务,0
+strikeStyle,E,欧式行权,权证业务,0
+subjectlevel,1,1级{{Level 1}},,0
+subjectlevel,2,2级{{Level 2}},,1
+subjectlevel,3,3级{{Level 3}},,2
+subjectlevel,4,4级{{Level 4}},,3
+SubSBLType,11,融券,融券PTH,0
+SubSBLType,21,自营,过券PTH自营券源产生,1
+SubSBLType,22,过券买入,过券PTH过券买入产生,2
+SubSystemId,AMS,AMS交易系统{{AMS Trading System}},,0
+SubSystemId,AMSEV,AMS估值系统{{AMS Valuation System}},,1
+SupportAttribute,C,信用{{Margin}},,2
+SupportAttribute,F,期货{{Futures}},,1
+SupportAttribute,HK,港股{{HK Stock}},,5
+SupportAttribute,O,期权{{Option}},,3
+SupportAttribute,S,现货{{Spot}},,0
+SyncDataType,0,全部{{All}},同步数据类型-全部,0
+SyncDataType,1,持仓{{Positions}},同步数据类型-持仓,1
+SyncDataType,2,信用合约{{Margin Contract}},同步数据类型-信用合约,2
+SyncDataType,3,资金{{Fund}},同步数据类型-资金,3
+syncFlag,0,不同步{{Not Sync}},,0
+syncFlag,1,同步{{Sync}},,1
+sysfuncFlag,0,查询{{Query}},,0
+sysfuncFlag,1,操作{{Operation}},,1
+sysfuncFlag,2,复核{{Review}},,2
+systemStatus,0,正常运行{{Normal Run}},,0
+systemStatus,1,正在归档{{Initialing}},,1
+systemStatus,2,正在备份{{Backup}},,2
+systemStatus,3,正在恢复{{Restore}},,3
+systemStatus,4,异常或还原后待确认{{Exception or After restore for confirmation}},,4
+SystemUndoFlag,1,恢复清算前自动备份文件,BackupAndRestoreCost,1
+SystemUndoFlag,2,恢复手工备份文件,BackupAndRestoreCost,2
+SystemUndoFlag,3,恢复清算后自动备份文件,BackupAndRestoreCost,3
+TAType,01,自建,,1
+TAType,98,中登,,2
+TemplateType,InOptId,内部操作员,,1
+TemplateType,Institution,机构,,0
+TemplateType,OutOptId,外部操作员,,2
+TemplateType,Product,产品,,3
+ThirdReckoningType,0,外挂清算模式,,0
+ThirdReckoningType,1,外挂同步模式,,1
+ThirdReckoningType,3,OTCD同步模式,,3
+ThirdReckoningType,4,对接清算中心,,4
+ThirdReckoningType,9,镜像外挂同步模式,,9
+ThirdSysInterface,APEXCT,顶点系统,,3
+ThirdSysInterface,CMS,招商特有,,6
+ThirdSysInterface,HSUFT,恒生UFT,,1
+ThirdSysInterface,KCXPUNIX,金证UNIX,,8
+ThirdSysInterface,KCXPWIN,金证Win,,2
+ThirdSysInterface,ROOTNET,根网系统,,4
+ThirdSysInterface,SGSPOT,金仕达,,5
+TotablId,601,实收资本,,0
+TotablId,604,资产类合计,,1
+TotablId,605,负债类合计,,2
+TotablId,701,资产资产净值,,3
+TotablId,702,资产单位净值,,4
+totalFlag,0,单个控制,风控业务使用,0
+totalFlag,1,联合控制,风控业务使用,1
+tradeCheckType,CBUY,融资买入{{Margin Buy}},,6
+tradeCheckType,CSELL,融券卖出{{Short Sell}},,7
+tradeCheckType,FBC,买入平仓{{Buy Close}},,1
+tradeCheckType,FBO,买入开仓{{Buy Open}},,0
+tradeCheckType,FSC,卖出平仓{{Sell Close}},,3
+tradeCheckType,FSO,卖出开仓{{Sell Open}},,2
+tradeCheckType,NSBUY,新股申购{{IPO Subscription}},,8
+tradeCheckType,SBUY,现货买入{{Spot Buy}},,4
+tradeCheckType,SSELL,现货卖出{{Spot Sell}},,5
+tradeClass,0,交易性{{Held for Trading}},,0
+tradeClass,1,可供出售{{Available for Sale}},,1
+tradeClass,2,持有到期{{Held to Maturity}},,2
+tradeFeeFlag,0,按金额{{By Cash Amout}},按金额,0
+tradeFeeFlag,1,按数量{{By Quantity}},按数量,1
+TradeFlag,0,买卖均允许,,0
+TradeFlag,1,仅卖禁止,,1
+TradeFlag,2,仅买禁止,,2
+TradeFlag,3,买卖均禁止,,3
+TradeFlag,4,仅卖允许,,4
+TradeFlag,5,仅买允许,,5
+TradeOrderFlag,0,投顾委托无需审批,,0
+TradeOrderFlag,1,投顾委托需审批,,1
+TradeOrderFlag,2,禁止投顾委托,,2
+tradeStatus,8,恢复上市首日,,0
+tradeStatus,9,股改复牌上市首日,,0
+tradeStatus,F,新股上网定价发行,,0
+tradeStatus,I,新股上网竞价发行,,0
+tradeStatus,N,通常状态,,0
+tradeStatus,P,国债挂牌分销,,0
+tradeStatus,Y,首日上市,,0
+tradeStatus,Z,增发股份上市,,0
+TradeType,A0,正常买卖{{Normal Trading}},正常买卖,0
+TradeType,A1,新股申购{{IPO Subscription}},新股申购,1
+TradeType,A2,新股配号{{IPO Lottery Number Allocation}},新股配号,2
+TradeType,A3,新股中签{{IPO Lottery Winning}},新股中签,3
+TradeType,A4,申购款{{Subscription}},申购款,4
+TradeType,A5,配股权益{{IPO}},配股权益,5
+TradeType,A8,增发新股{{SEO}},增发新股,6
+TradeType,A9,非交易{{Non-Transactional}},非交易,7
+TradeType,B3,转股,转股回售,8
+TradeType,B4,回售,转股回售,9
+TradeType,B7,申购赎回{{Subscription & Redemption}},申购赎回,10
+TradeType,B8,资金划拔{{Fund Transfer}},资金划拔,14
+TradeType,B9,大宗交易{{Block Trading}},大宗交易,15
+TradeType,C0,基金申赎{{Fund}},基金申赎,11
+TradeType,C1,权证行权{{Warrant Exercise}},权证行权,12
+TradeType,C3,质押申转{{Pledge}},质押申转,13
+TradeType,E3,盘后交易{{After Hour Trading}},盘后交易,16
+TradeUnit,0,股(张),股(张),0
+TradeUnit,1,手{{Lot}},手,1
+Tradingfeelevel,0,一级费用{{First Level Fee}},一级费用,0
+Tradingfeelevel,1,二级费用{{Second Level Fee}},二级费用,1
+tradingFeeType,0,手续费{{Commission}},手续费,0
+tradingFeeType,1,平今手续费,平今手续费,1
+tradingFeeType,10,风险基金费{{Risk Fun Fee}},风险基金费,10
+tradingFeeType,11,行权手续费{{Option Exercise Commission}},行权手续费,11
+tradingFeeType,12,行权清算费{{Option Clearing Fee}},行权清算费,12
+tradingFeeType,13,行权过户费{{Option Exercise Transfer Fee}},行权过户费,13
+tradingFeeType,2,平昨手续费,平昨手续费,2
+tradingFeeType,3,印花税{{Stample Duty}},印花税,3
+tradingFeeType,4,过户费{{Transfer Fee}},过户费,4
+tradingFeeType,5,清算费{{Clearing Fee}},清算费,5
+tradingFeeType,6,交易规费,交易规费,6
+tradingFeeType,7,经手费{{Handling Fee}},经手费,7
+tradingFeeType,8,证管费{{Securities Mgmt Fee}},证管费,8
+tradingFeeType,9,交易所过户费{{Exchange Transfer Fee}},交易所过户费,9
+tradingFeeTypeDict,0,commision,手续费,0
+tradingFeeTypeDict,1,commision,平今手续费,1
+tradingFeeTypeDict,10,ventureFee,风险基金费,10
+tradingFeeTypeDict,11,commision,行权手续费,11
+tradingFeeTypeDict,12,reckoningFee,行权清算费,12
+tradingFeeTypeDict,13,tradetransFee,行权过户费,13
+tradingFeeTypeDict,2,commision,平昨手续费,2
+tradingFeeTypeDict,3,stampTax,印花税,3
+tradingFeeTypeDict,4,tradetransFee,过户费,4
+tradingFeeTypeDict,5,reckoningFee,清算费,5
+tradingFeeTypeDict,6,transRuleFee,交易规费,6
+tradingFeeTypeDict,7,handlingFee,经手费,7
+tradingFeeTypeDict,8,stkMngFee,证管费,8
+tradingFeeTypeDict,9,exchtransFee,交易所过户费,9
+tradingFeeTypelevel,0,1,手续费,0
+tradingFeeTypelevel,1,1,平今手续费,1
+tradingFeeTypelevel,10,0,风险基金费,10
+tradingFeeTypelevel,11,1,行权手续费,11
+tradingFeeTypelevel,12,0,行权清算费,12
+tradingFeeTypelevel,13,0,行权过户费,13
+tradingFeeTypelevel,2,1,平昨手续费,2
+tradingFeeTypelevel,3,0,印花税,3
+tradingFeeTypelevel,4,1,过户费,4
+tradingFeeTypelevel,5,0,清算费,5
+tradingFeeTypelevel,6,0,交易规费,6
+tradingFeeTypelevel,7,0,经手费,7
+tradingFeeTypelevel,8,0,证管费,8
+tradingFeeTypelevel,9,0,交易所过户费,9
+TransferType,B,集合+连续{{Call & Continous Autcion}},集合+连续,2
+TransferType,C,集合竞价转让{{Call Auction Transfer}},集合竞价转让,3
+TransferType,M,做市转让{{Market Making Transfer}},做市转让,1
+TransferType,T,协议转让{{Agreement Transfer}},协议转让,0
+TransStatus,0,发送中{{Sending}},,0
+TransStatus,1,请求成功{{Request Succeed}},,1
+TransStatus,2,转账成功{{Transfer Succeed}},,2
+TransStatus,3,转账失败{{Transfer Failed}},,3
+trusteeAcctFlag,0,不托管{{No Custody}},,0
+trusteeAcctFlag,1,托管,,1
+UpdateFlag,0,增加{{Add}},增加,0
+UpdateFlag,1,删除{{Delete}},删除,1
+UpdateFlag,2,修改{{Modify}},修改,2
+UpdateFlag,5,重置密码,复核操作,5
+version,PTP_1.6.0.0,版本号管理,,0
+VOTE_OrderQty,1,同意,,1
+VOTE_OrderQty,2,反对,,2
+VOTE_OrderQty,3,弃权,,3
+WeightMethod,110,流通股加权,,0
+WeightMethod,113,流通股比例分级靠档加权,,1
+WeightMethod,130,总股本加权,,2
+WeightMethod,210,债券流通托管量加权,,3
+WeightMethod,230,债券发行量加权,,4
+WeightMethod,310,几何平均,,5
+WeightMethod,410,算术平均,,6
+WeightMethod,510,等权重,,7
+WeightMethod,999,其他{{Other}},,8
+WeightOrderStrategy,0,单元总资产比,,0
+WeightOrderStrategy,1,单元可用比,,1
+WeightOrderStrategy,2,模版股卖出,模板中的代码持仓全部或按比例卖出,2
+WeightOrderStrategy,3,持仓股卖出,账户下所有持仓全部或按比例卖出,3
+WeightOrderStrategy,4,单元总资产(仅卖出),按资产权重配比，仅卖出委托多余部分，不买入,4
+WeightOrderStrategy,5,固定金额,按固定金额进行买入或卖出,5
+WeightOrderStrategy,6,模板股外卖出,模板中的代码之外的持仓全部或按比例卖出,4
+WeightOrderStrategy,7,产品净资产比,,7
+withdrawOrderFlag,0,正常委托{{Trade}},,0
+withdrawOrderFlag,1,撤单{{Cancel}},,1
+withdrawOrderFlag,2,已全部成交或撤单成功{{All Filled or Cancelled Successfully}},,2
+workgroupType,0,投资小组{{Investment Team}},,0
+workgroupType,1,指令审批{{Instruction Review}},,1
+workgroupType,2,指令下发{{Instruction Distrubution}},,2
+workgroupType,3,指令执行{{Instruction Execution}},,3

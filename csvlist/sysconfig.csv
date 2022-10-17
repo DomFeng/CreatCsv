@@ -1,0 +1,2 @@
+lastReckoningDate,lastStartupDate,tradeDate,lastArchiveTime,systemStatus,reckoningBackupFlag,initBackupFlag,deliveryFlag,systemUndoFlag,reckoningCurrentBackupFlag,initCurrentBackupFlag,initCurrentBackupDate,initFullBackupDate,passwordAlgorithm,dbPwdKey,initProcessTime,forceInitTime,futForceInitTime,hisArchiveDate
+20221013,20221013,20221014,20220124202901,0,0,0,0,0,0,0,20220124202901,20220124202901,,,310,2300,2300,20221001
